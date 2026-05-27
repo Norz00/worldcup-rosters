@@ -1,0 +1,1227 @@
+{
+  "last_updated": "2026-05-21",
+  "teams": [
+    {
+      "name": "巴西",
+      "name_en": "Brazil",
+      "coach": "Carlo Ancelotti",
+      "status": "announced",
+      "players": [
+        {
+          "number": 1,
+          "name": "Alisson",
+          "position": "门将",
+          "club": "利物浦"
+        },
+        {
+          "number": 2,
+          "name": "Ederson",
+          "position": "门将",
+          "club": "费内巴切"
+        },
+        {
+          "number": 3,
+          "name": "Weverton",
+          "position": "门将",
+          "club": "格雷米奥"
+        },
+        {
+          "number": 4,
+          "name": "Danilo",
+          "position": "后卫",
+          "club": "弗拉门戈"
+        },
+        {
+          "number": 5,
+          "name": "Alex Sandro",
+          "position": "后卫",
+          "club": "弗拉门戈"
+        },
+        {
+          "number": 6,
+          "name": "Léo Pereira",
+          "position": "后卫",
+          "club": "弗拉门戈"
+        },
+        {
+          "number": 7,
+          "name": "Marquinhos",
+          "position": "后卫",
+          "club": "巴黎圣日耳曼"
+        },
+        {
+          "number": 8,
+          "name": "Gabriel Magalhães",
+          "position": "后卫",
+          "club": "阿森纳"
+        },
+        {
+          "number": 9,
+          "name": "Bremer",
+          "position": "后卫",
+          "club": "尤文图斯"
+        },
+        {
+          "number": 10,
+          "name": "Ibañez",
+          "position": "后卫",
+          "club": "吉达国民"
+        },
+        {
+          "number": 11,
+          "name": "Wesley",
+          "position": "后卫",
+          "club": "罗马"
+        },
+        {
+          "number": 12,
+          "name": "Douglas Santos",
+          "position": "后卫",
+          "club": "泽尼特"
+        },
+        {
+          "number": 13,
+          "name": "Casemiro",
+          "position": "中场",
+          "club": "曼联"
+        },
+        {
+          "number": 14,
+          "name": "Bruno Guimarães",
+          "position": "中场",
+          "club": "纽卡斯尔联"
+        },
+        {
+          "number": 15,
+          "name": "Fabinho",
+          "position": "中场",
+          "club": "吉达联合"
+        },
+        {
+          "number": 16,
+          "name": "Lucas Paquetá",
+          "position": "中场",
+          "club": "弗拉门戈"
+        },
+        {
+          "number": 17,
+          "name": "Danilo Santos",
+          "position": "中场",
+          "club": "博塔弗戈"
+        },
+        {
+          "number": 18,
+          "name": "Neymar",
+          "position": "前锋",
+          "club": "桑托斯"
+        },
+        {
+          "number": 19,
+          "name": "Vinícius Jr.",
+          "position": "前锋",
+          "club": "皇家马德里"
+        },
+        {
+          "number": 20,
+          "name": "Raphinha",
+          "position": "前锋",
+          "club": "巴塞罗那"
+        },
+        {
+          "number": 21,
+          "name": "Matheus Cunha",
+          "position": "前锋",
+          "club": "曼联"
+        },
+        {
+          "number": 22,
+          "name": "Endrick",
+          "position": "前锋",
+          "club": "里昂"
+        },
+        {
+          "number": 23,
+          "name": "Gabriel Martinelli",
+          "position": "前锋",
+          "club": "阿森纳"
+        },
+        {
+          "number": 24,
+          "name": "Igor Thiago",
+          "position": "前锋",
+          "club": "布伦特福德"
+        },
+        {
+          "number": 25,
+          "name": "Luiz Henrique",
+          "position": "前锋",
+          "club": "泽尼特"
+        },
+        {
+          "number": 26,
+          "name": "Rayan",
+          "position": "前锋",
+          "club": "伯恩茅斯"
+        }
+      ],
+      "expected_date": "2026-05-18"
+    },
+    {
+      "name": "法国",
+      "name_en": "France",
+      "coach": "Didier Deschamps",
+      "status": "announced",
+      "players": [
+        {
+          "number": 1,
+          "name": "Mike Maignan",
+          "position": "门将",
+          "club": "AC米兰"
+        },
+        {
+          "number": 2,
+          "name": "Robin Risser",
+          "position": "门将",
+          "club": "朗斯"
+        },
+        {
+          "number": 3,
+          "name": "Brice Samba",
+          "position": "门将",
+          "club": "雷恩"
+        },
+        {
+          "number": 4,
+          "name": "Lucas Digne",
+          "position": "后卫",
+          "club": "阿斯顿维拉"
+        },
+        {
+          "number": 5,
+          "name": "Malo Gusto",
+          "position": "后卫",
+          "club": "切尔西"
+        },
+        {
+          "number": 6,
+          "name": "Lucas Hernández",
+          "position": "后卫",
+          "club": "巴黎圣日耳曼"
+        },
+        {
+          "number": 7,
+          "name": "Theo Hernández",
+          "position": "后卫",
+          "club": "利雅得新月"
+        },
+        {
+          "number": 8,
+          "name": "Ibrahima Konaté",
+          "position": "后卫",
+          "club": "利物浦"
+        },
+        {
+          "number": 9,
+          "name": "Maxence Lacroix",
+          "position": "后卫",
+          "club": "水晶宫"
+        },
+        {
+          "number": 10,
+          "name": "Jules Koundé",
+          "position": "后卫",
+          "club": "巴塞罗那"
+        },
+        {
+          "number": 11,
+          "name": "William Saliba",
+          "position": "后卫",
+          "club": "阿森纳"
+        },
+        {
+          "number": 12,
+          "name": "Dayot Upamecano",
+          "position": "后卫",
+          "club": "拜仁慕尼黑"
+        },
+        {
+          "number": 13,
+          "name": "N'Golo Kanté",
+          "position": "中场",
+          "club": "费内巴切"
+        },
+        {
+          "number": 14,
+          "name": "Manu Koné",
+          "position": "中场",
+          "club": "罗马"
+        },
+        {
+          "number": 15,
+          "name": "Adrien Rabiot",
+          "position": "中场",
+          "club": "AC米兰"
+        },
+        {
+          "number": 16,
+          "name": "Aurélien Tchouaméni",
+          "position": "中场",
+          "club": "皇家马德里"
+        },
+        {
+          "number": 17,
+          "name": "Warren Zaïre-Emery",
+          "position": "中场",
+          "club": "巴黎圣日耳曼"
+        },
+        {
+          "number": 18,
+          "name": "Kylian Mbappé",
+          "position": "前锋",
+          "club": "皇家马德里"
+        },
+        {
+          "number": 19,
+          "name": "Ousmane Dembélé",
+          "position": "前锋",
+          "club": "巴黎圣日耳曼"
+        },
+        {
+          "number": 20,
+          "name": "Désiré Doué",
+          "position": "前锋",
+          "club": "巴黎圣日耳曼"
+        },
+        {
+          "number": 21,
+          "name": "Michael Olise",
+          "position": "前锋",
+          "club": "拜仁慕尼黑"
+        },
+        {
+          "number": 22,
+          "name": "Rayan Cherki",
+          "position": "前锋",
+          "club": "曼城"
+        },
+        {
+          "number": 23,
+          "name": "Bradley Barcola",
+          "position": "前锋",
+          "club": "巴黎圣日耳曼"
+        },
+        {
+          "number": 24,
+          "name": "Marcus Thuram",
+          "position": "前锋",
+          "club": "国际米兰"
+        },
+        {
+          "number": 25,
+          "name": "Jean-Philippe Mateta",
+          "position": "前锋",
+          "club": "水晶宫"
+        },
+        {
+          "number": 26,
+          "name": "Maghnes Akliouche",
+          "position": "前锋",
+          "club": "摩纳哥"
+        }
+      ],
+      "expected_date": "2026-05-14"
+    },
+    {
+      "name": "克罗地亚",
+      "name_en": "Croatia",
+      "coach": "Zlatko Dalić",
+      "status": "announced",
+      "players": [
+        {
+          "number": 1,
+          "name": "Dominik Livaković",
+          "position": "门将",
+          "club": "萨格勒布迪纳摩"
+        },
+        {
+          "number": 2,
+          "name": "Dominik Kotarski",
+          "position": "门将",
+          "club": "哥本哈根"
+        },
+        {
+          "number": 3,
+          "name": "Ivor Pandur",
+          "position": "门将",
+          "club": "赫尔城"
+        },
+        {
+          "number": 4,
+          "name": "Joško Gvardiol",
+          "position": "后卫",
+          "club": "曼城"
+        },
+        {
+          "number": 5,
+          "name": "Duje Ćaleta-Car",
+          "position": "后卫",
+          "club": "皇家社会"
+        },
+        {
+          "number": 6,
+          "name": "Josip Stanišić",
+          "position": "后卫",
+          "club": "拜仁慕尼黑"
+        },
+        {
+          "number": 7,
+          "name": "Luka Vušković",
+          "position": "后卫",
+          "club": "热刺(租借)"
+        },
+        {
+          "number": 8,
+          "name": "Marin Pongračić",
+          "position": "后卫",
+          "club": "佛罗伦萨"
+        },
+        {
+          "number": 9,
+          "name": "Josip Juranović",
+          "position": "后卫",
+          "club": "柏林联合"
+        },
+        {
+          "number": 10,
+          "name": "Borna Sosa",
+          "position": "后卫",
+          "club": "阿贾克斯"
+        },
+        {
+          "number": 11,
+          "name": "Luka Modrić",
+          "position": "中场",
+          "club": "AC米兰"
+        },
+        {
+          "number": 12,
+          "name": "Mateo Kovačić",
+          "position": "中场",
+          "club": "曼城"
+        },
+        {
+          "number": 13,
+          "name": "Mario Pašalić",
+          "position": "中场",
+          "club": "亚特兰大"
+        },
+        {
+          "number": 14,
+          "name": "Nikola Vlašić",
+          "position": "中场",
+          "club": "都灵"
+        },
+        {
+          "number": 15,
+          "name": "Luka Sučić",
+          "position": "中场",
+          "club": "皇家社会"
+        },
+        {
+          "number": 16,
+          "name": "Martin Baturina",
+          "position": "中场",
+          "club": "萨格勒布迪纳摩"
+        },
+        {
+          "number": 17,
+          "name": "Ivan Perišić",
+          "position": "前锋",
+          "club": "PSV埃因霍温"
+        },
+        {
+          "number": 18,
+          "name": "Andrej Kramarić",
+          "position": "前锋",
+          "club": "霍芬海姆"
+        },
+        {
+          "number": 19,
+          "name": "Ante Budimir",
+          "position": "前锋",
+          "club": "奥萨苏纳"
+        },
+        {
+          "number": 20,
+          "name": "Petar Musa",
+          "position": "前锋",
+          "club": "FC达拉斯"
+        },
+        {
+          "number": 21,
+          "name": "Bruno Petković",
+          "position": "前锋",
+          "club": "萨格勒布迪纳摩"
+        },
+        {
+          "number": 22,
+          "name": "Josip Brekalo",
+          "position": "前锋",
+          "club": "佛罗伦萨"
+        },
+        {
+          "number": 23,
+          "name": "Dion Drena Beljo",
+          "position": "前锋",
+          "club": "奥格斯堡"
+        }
+      ],
+      "expected_date": "2026-05-18"
+    },
+    {
+      "name": "瑞典",
+      "name_en": "Sweden",
+      "coach": "Graham Potter",
+      "status": "announced",
+      "players": [
+        {
+          "number": 1,
+          "name": "Kristoffer Nordfeldt",
+          "position": "门将",
+          "club": "AIK索尔纳"
+        },
+        {
+          "number": 2,
+          "name": "Viktor Johansson",
+          "position": "门将",
+          "club": "斯托克城"
+        },
+        {
+          "number": 3,
+          "name": "Jacob Zetterström",
+          "position": "门将",
+          "club": "德比郡"
+        },
+        {
+          "number": 4,
+          "name": "Victor Lindelöf",
+          "position": "后卫",
+          "club": "阿斯顿维拉"
+        },
+        {
+          "number": 5,
+          "name": "Isak Hien",
+          "position": "后卫",
+          "club": "亚特兰大"
+        },
+        {
+          "number": 6,
+          "name": "Carl Starfelt",
+          "position": "后卫",
+          "club": "塞尔塔"
+        },
+        {
+          "number": 7,
+          "name": "Emil Holm",
+          "position": "后卫",
+          "club": "尤文图斯"
+        },
+        {
+          "number": 8,
+          "name": "Ludwig Augustinsson",
+          "position": "后卫",
+          "club": "安德莱赫特"
+        },
+        {
+          "number": 9,
+          "name": "Linus Wahlqvist",
+          "position": "后卫",
+          "club": "诺维奇城"
+        },
+        {
+          "number": 10,
+          "name": "Gabriel Gudmundsson",
+          "position": "后卫",
+          "club": "里尔"
+        },
+        {
+          "number": 11,
+          "name": "Mattias Svanberg",
+          "position": "中场",
+          "club": "沃尔夫斯堡"
+        },
+        {
+          "number": 12,
+          "name": "Jens Cajuste",
+          "position": "中场",
+          "club": "伊普斯维奇"
+        },
+        {
+          "number": 13,
+          "name": "Hugo Larsson",
+          "position": "中场",
+          "club": "法兰克福"
+        },
+        {
+          "number": 14,
+          "name": "Lucas Bergvall",
+          "position": "中场",
+          "club": "热刺"
+        },
+        {
+          "number": 15,
+          "name": "Yasin Ayari",
+          "position": "中场",
+          "club": "布莱顿"
+        },
+        {
+          "number": 16,
+          "name": "Viktor Gyökeres",
+          "position": "前锋",
+          "club": "阿森纳"
+        },
+        {
+          "number": 17,
+          "name": "Alexander Isak",
+          "position": "前锋",
+          "club": "利物浦"
+        },
+        {
+          "number": 18,
+          "name": "Anthony Elanga",
+          "position": "前锋",
+          "club": "纽卡斯尔联"
+        },
+        {
+          "number": 19,
+          "name": "Dejan Kulusevski",
+          "position": "前锋",
+          "club": "热刺"
+        },
+        {
+          "number": 20,
+          "name": "Niclas Eliasson",
+          "position": "前锋",
+          "club": "雅典AEK"
+        },
+        {
+          "number": 21,
+          "name": "Armin Gigovic",
+          "position": "前锋",
+          "club": "中日德兰"
+        }
+      ],
+      "expected_date": "2026-05-17"
+    },
+    {
+      "name": "波黑",
+      "name_en": "Bosnia and Herzegovina",
+      "coach": "Sergej Barbarez",
+      "status": "announced",
+      "players": [
+        {
+          "number": 1,
+          "name": "Ibrahim Šehić",
+          "position": "门将",
+          "club": "阿尔卡利杰"
+        },
+        {
+          "number": 2,
+          "name": "Nikola Vasilj",
+          "position": "门将",
+          "club": "圣保利"
+        },
+        {
+          "number": 3,
+          "name": "Kenan Pirić",
+          "position": "门将",
+          "club": "安塔利亚体育"
+        },
+        {
+          "number": 4,
+          "name": "Sead Kolašinac",
+          "position": "后卫",
+          "club": "亚特兰大"
+        },
+        {
+          "number": 5,
+          "name": "Amar Dedić",
+          "position": "后卫",
+          "club": "本菲卡"
+        },
+        {
+          "number": 6,
+          "name": "Anel Ahmedhodžić",
+          "position": "后卫",
+          "club": "谢菲尔德联"
+        },
+        {
+          "number": 7,
+          "name": "Dennis Hadžikadunić",
+          "position": "后卫",
+          "club": "汉堡"
+        },
+        {
+          "number": 8,
+          "name": "Jusuf Gazibegović",
+          "position": "后卫",
+          "club": "格拉茨风暴"
+        },
+        {
+          "number": 9,
+          "name": "Tarik Muharemović",
+          "position": "后卫",
+          "club": "尤文图斯"
+        },
+        {
+          "number": 10,
+          "name": "Rade Krunić",
+          "position": "中场",
+          "club": "费内巴切"
+        },
+        {
+          "number": 11,
+          "name": "Amir Hadžiahmetović",
+          "position": "中场",
+          "club": "贝西克塔斯"
+        },
+        {
+          "number": 12,
+          "name": "Benjamin Tahirović",
+          "position": "中场",
+          "club": "阿贾克斯"
+        },
+        {
+          "number": 13,
+          "name": "Ivan Bašić",
+          "position": "中场",
+          "club": "奥伦堡"
+        },
+        {
+          "number": 14,
+          "name": "Amar Rahmanović",
+          "position": "中场",
+          "club": "萨拉热窝"
+        },
+        {
+          "number": 15,
+          "name": "Edin Džeko",
+          "position": "前锋",
+          "club": "沙尔克04"
+        },
+        {
+          "number": 16,
+          "name": "Ermedin Demirović",
+          "position": "前锋",
+          "club": "斯图加特"
+        },
+        {
+          "number": 17,
+          "name": "Haris Tabaković",
+          "position": "前锋",
+          "club": "柏林赫塔"
+        },
+        {
+          "number": 18,
+          "name": "Nail Omerović",
+          "position": "前锋",
+          "club": "萨格勒布迪纳摩"
+        },
+        {
+          "number": 19,
+          "name": "Esmael Gonçalves",
+          "position": "前锋",
+          "club": "柔佛DT"
+        }
+      ],
+      "expected_date": "2026-05-11"
+    },
+    {
+      "name": "新西兰",
+      "name_en": "New Zealand",
+      "coach": "Darren Bazeley",
+      "status": "announced",
+      "players": [
+        {
+          "number": 1,
+          "name": "Max Crocombe",
+          "position": "门将",
+          "club": "伯顿阿尔比恩"
+        },
+        {
+          "number": 2,
+          "name": "Alex Paulsen",
+          "position": "门将",
+          "club": "伯恩茅斯"
+        },
+        {
+          "number": 3,
+          "name": "Oli Sail",
+          "position": "门将",
+          "club": "珀斯光荣"
+        },
+        {
+          "number": 4,
+          "name": "Tommy Smith",
+          "position": "后卫",
+          "club": "布伦特里城"
+        },
+        {
+          "number": 5,
+          "name": "Liberato Cacace",
+          "position": "后卫",
+          "club": "雷克瑟姆"
+        },
+        {
+          "number": 6,
+          "name": "Bill Tuiloma",
+          "position": "后卫",
+          "club": "夏洛特FC"
+        },
+        {
+          "number": 7,
+          "name": "Nando Pijnaker",
+          "position": "后卫",
+          "club": "斯莱戈流浪者"
+        },
+        {
+          "number": 8,
+          "name": "Tyler Bindon",
+          "position": "后卫",
+          "club": "诺丁汉森林"
+        },
+        {
+          "number": 9,
+          "name": "Tim Payne",
+          "position": "后卫",
+          "club": "惠灵顿凤凰"
+        },
+        {
+          "number": 10,
+          "name": "Matthew Garbett",
+          "position": "中场",
+          "club": "布雷达"
+        },
+        {
+          "number": 11,
+          "name": "Joe Bell",
+          "position": "中场",
+          "club": "维京"
+        },
+        {
+          "number": 12,
+          "name": "Sarpreet Singh",
+          "position": "中场",
+          "club": "汉莎罗斯托克"
+        },
+        {
+          "number": 13,
+          "name": "Marco Rojas",
+          "position": "中场",
+          "club": "布里斯班狮吼"
+        },
+        {
+          "number": 14,
+          "name": "Elijah Just",
+          "position": "中场",
+          "club": "圣加仑"
+        },
+        {
+          "number": 15,
+          "name": "Chris Wood",
+          "position": "前锋",
+          "club": "诺丁汉森林"
+        },
+        {
+          "number": 16,
+          "name": "Ben Waine",
+          "position": "前锋",
+          "club": "普利茅斯"
+        },
+        {
+          "number": 17,
+          "name": "Alex Greive",
+          "position": "前锋",
+          "club": "圣米伦"
+        },
+        {
+          "number": 18,
+          "name": "Kosta Barbarouses",
+          "position": "前锋",
+          "club": "惠灵顿凤凰"
+        }
+      ],
+      "expected_date": "2026-05-16"
+    },
+    {
+      "name": "阿根廷",
+      "name_en": "Argentina",
+      "coach": "Lionel Scaloni",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-20"
+    },
+    {
+      "name": "英格兰",
+      "name_en": "England",
+      "coach": "Thomas Tuchel",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-22"
+    },
+    {
+      "name": "德国",
+      "name_en": "Germany",
+      "coach": "Julian Nagelsmann",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-21"
+    },
+    {
+      "name": "美国",
+      "name_en": "United States",
+      "coach": "Mauricio Pochettino",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-26"
+    },
+    {
+      "name": "葡萄牙",
+      "name_en": "Portugal",
+      "coach": "Roberto Martínez",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-19"
+    },
+    {
+      "name": "西班牙",
+      "name_en": "Spain",
+      "coach": "Luis de la Fuente",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-28"
+    },
+    {
+      "name": "荷兰",
+      "name_en": "Netherlands",
+      "coach": "Ronald Koeman",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-25"
+    },
+    {
+      "name": "苏格兰",
+      "name_en": "Scotland",
+      "coach": "待确认",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-19"
+    },
+    {
+      "name": "挪威",
+      "name_en": "Norway",
+      "coach": "待确认",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-21"
+    },
+    {
+      "name": "摩洛哥",
+      "name_en": "Morocco",
+      "coach": "待确认",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-21"
+    },
+    {
+      "name": "墨西哥",
+      "name_en": "Mexico",
+      "coach": "Javier Aguirre",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-28"
+    },
+    {
+      "name": "南非",
+      "name_en": "South Africa",
+      "coach": "Hugo Broos",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-31"
+    },
+    {
+      "name": "韩国",
+      "name_en": "South Korea",
+      "coach": "Hong Myung-bo",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-25"
+    },
+    {
+      "name": "捷克",
+      "name_en": "Czechia",
+      "coach": "Ivan Hašek",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-27"
+    },
+    {
+      "name": "加拿大",
+      "name_en": "Canada",
+      "coach": "Jesse Marsch",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-30"
+    },
+    {
+      "name": "卡塔尔",
+      "name_en": "Qatar",
+      "coach": "Tintín Márquez",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-28"
+    },
+    {
+      "name": "瑞士",
+      "name_en": "Switzerland",
+      "coach": "Murat Yakin",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-29"
+    },
+    {
+      "name": "海地",
+      "name_en": "Haiti",
+      "coach": "Sébastien Migné",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-31"
+    },
+    {
+      "name": "巴拉圭",
+      "name_en": "Paraguay",
+      "coach": "Gustavo Alfaro",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-06-01"
+    },
+    {
+      "name": "澳大利亚",
+      "name_en": "Australia",
+      "coach": "Tony Popovic",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-06-01"
+    },
+    {
+      "name": "土耳其",
+      "name_en": "Türkiye",
+      "coach": "Vincenzo Montella",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-28"
+    },
+    {
+      "name": "厄瓜多尔",
+      "name_en": "Ecuador",
+      "coach": "Sebastián Beccacece",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-29"
+    },
+    {
+      "name": "科特迪瓦",
+      "name_en": "Ivory Coast",
+      "coach": "Emerse Faé",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-27"
+    },
+    {
+      "name": "库拉索",
+      "name_en": "Curaçao",
+      "coach": "Dean Gorré",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-26"
+    },
+    {
+      "name": "日本",
+      "name_en": "Japan",
+      "coach": "Hajime Moriyasu",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-24"
+    },
+    {
+      "name": "突尼斯",
+      "name_en": "Tunisia",
+      "coach": "Faouzi Benzarti",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-28"
+    },
+    {
+      "name": "比利时",
+      "name_en": "Belgium",
+      "coach": "Rudi Garcia",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-30"
+    },
+    {
+      "name": "埃及",
+      "name_en": "Egypt",
+      "coach": "Hossam Hassan",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-29"
+    },
+    {
+      "name": "伊朗",
+      "name_en": "Iran",
+      "coach": "Amir Ghalenoei",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-30"
+    },
+    {
+      "name": "乌拉圭",
+      "name_en": "Uruguay",
+      "coach": "Marcelo Bielsa",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-31"
+    },
+    {
+      "name": "沙特阿拉伯",
+      "name_en": "Saudi Arabia",
+      "coach": "Roberto Mancini",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-29"
+    },
+    {
+      "name": "佛得角",
+      "name_en": "Cape Verde",
+      "coach": "Bubista",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-28"
+    },
+    {
+      "name": "塞内加尔",
+      "name_en": "Senegal",
+      "coach": "Pape Thiaw",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-30"
+    },
+    {
+      "name": "伊拉克",
+      "name_en": "Iraq",
+      "coach": "Jesús Casas",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-30"
+    },
+    {
+      "name": "阿尔及利亚",
+      "name_en": "Algeria",
+      "coach": "Vladimir Petković",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-30"
+    },
+    {
+      "name": "奥地利",
+      "name_en": "Austria",
+      "coach": "Ralf Rangnick",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-27"
+    },
+    {
+      "name": "约旦",
+      "name_en": "Jordan",
+      "coach": "Jamal Sellami",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-31"
+    },
+    {
+      "name": "哥伦比亚",
+      "name_en": "Colombia",
+      "coach": "Néstor Lorenzo",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-29"
+    },
+    {
+      "name": "乌兹别克斯坦",
+      "name_en": "Uzbekistan",
+      "coach": "Timur Kapadze",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-29"
+    },
+    {
+      "name": "刚果民主共和国",
+      "name_en": "DR Congo",
+      "coach": "Sébastien Desabre",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-30"
+    },
+    {
+      "name": "巴拿马",
+      "name_en": "Panama",
+      "coach": "Thomas Christiansen",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-30"
+    },
+    {
+      "name": "加纳",
+      "name_en": "Ghana",
+      "coach": "Otto Addo",
+      "status": "pending",
+      "players": [],
+      "expected_date": "2026-05-31"
+    }
+  ],
+  "update_schedule": {
+    "2026-05-19": [
+      "葡萄牙",
+      "苏格兰"
+    ],
+    "2026-05-20": [
+      "阿根廷"
+    ],
+    "2026-05-21": [
+      "德国",
+      "挪威",
+      "摩洛哥"
+    ],
+    "2026-05-22": [
+      "英格兰"
+    ],
+    "2026-05-25": [
+      "荷兰"
+    ],
+    "2026-05-26": [
+      "美国"
+    ],
+    "2026-05-28": [
+      "西班牙"
+    ],
+    "2026-05-29": [
+      "埃及",
+      "哥伦比亚"
+    ],
+    "2026-06-01": [
+      "澳大利亚"
+    ],
+    "2026-06-02": "最终名单提交截止日"
+  }
+}

@@ -1,0 +1,43 @@
+name: Update Rosters
+
+on:
+  schedule:
+    # Runs daily at 08:00 and 20:00 UTC (北京时间 16:00 和 04:00)
+    - cron: '0 8,20 * * *'
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install axios cheerio
+
+      - name: Run scraper
+        run: node scripts/scrape-rosters.js
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet rosters.json; then
+            echo "No changes"
+          else
+            git add rosters.json
+            git commit -m "Auto-update rosters: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ Roster data updated and pushed"
+          fi
