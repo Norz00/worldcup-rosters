@@ -174,24 +174,15 @@ async function scrapeWikipedia() {
     console.log(`    Preview: ${preview}...`);
 
     // ---- Step 3: Parse player templates ----
-    // Wikipedia uses several template variants for squad players:
-    // {{nat fs player|...}}       - standard
-    // {{nat fs r player|...}}     - reserve
-    // {{nat fs g player|...}}     - goalkeeper specific
-    // {{nat fs start|...}}        - starting lineup
-    // The template body is everything between {{...}} that starts with these prefixes
-    const playerRegex = /\{\{\s*(?:nat|fs)\s+(?:fs|squad)\s+(?:r\s+|g\s+)?player\s*\|([^}]+?(?:\}\}[^}]*?\{\{[^}]*?player[^}]*?\}|\{\{[^}]*?\}\}[^}]*?)*?)\}\}/gi;
-    // Simpler: just match {{...player|... then extract up to matching }}
-
-    // Use a simpler approach: find each "player" template start, then count braces
-    const simplePlayerRegex = /\{\{(?:nat|fs)\s+(?:fs|squad)\s+(?:r\s+|g\s+)?player\s*\|/gi;
+    // Wikipedia template variants: nat fs player, nat fs r player, nat fs g player
+    const playerStartRegex = /\{\{(?:nat|fs)\s+(?:fs|squad)\s+(?:r\s+|g\s+)?player\s*\|/gi;
     let playerMatch;
     const players = [];
 
-    while ((playerMatch = simplePlayerRegex.exec(sectionContent)) !== null) {
+    while ((playerMatch = playerStartRegex.exec(sectionContent)) !== null) {
       const startPos = playerMatch.index;
       // Find matching }} by counting braces
-      let depth = 2; // we already matched {{
+      let depth = 2;
       let endPos = startPos + playerMatch[0].length;
       for (; endPos < sectionContent.length && depth > 0; endPos++) {
         if (sectionContent[endPos] === '{' && sectionContent[endPos + 1] === '{') {
@@ -200,26 +191,57 @@ async function scrapeWikipedia() {
           depth--; endPos++;
         }
       }
-      const templateBody = sectionContent.substring(startPos + 2, endPos - 1); // strip outer {{ }}
-      // Get params after the first |
+      const templateBody = sectionContent.substring(startPos + 2, endPos - 1);
       const pipeIdx = templateBody.indexOf('|');
       if (pipeIdx === -1) continue;
-      const params = templateBody.substring(pipeIdx + 1);
+      const paramsStr = templateBody.substring(pipeIdx + 1);
 
-      const getParam = (key) => {
-        // Match |key=value where value can contain nested templates
-        const re = new RegExp(`\\|\\s*${key}\\s*=\\s*((?:(?!\\|\\s*(?:${key}\\w*)\\s*=)[^])*)`, 'i');
-        const m = params.match(re);
-        return m ? stripWiki(m[1].trim()) : '';
-      };
+      // Parse parameters respecting nested {{...}} and [[...]]
+      const params = {};
+      let key = '';
+      let value = '';
+      let inValue = false;
+      let braceDepth = 0;
+      let bracketDepth = 0;
 
-      const name = getParam('name');
+      for (let j = 0; j <= paramsStr.length; j++) {
+        const ch = j < paramsStr.length ? paramsStr[j] : '|'; // treat end as separator
+        const nextCh = j < paramsStr.length - 1 ? paramsStr[j + 1] : '';
+
+        if (ch === '{' && nextCh === '{') { braceDepth++; j++; continue; }
+        if (ch === '}' && nextCh === '}') { braceDepth--; j++; continue; }
+        if (ch === '[' && nextCh === '[') { bracketDepth++; j++; continue; }
+        if (ch === ']' && nextCh === ']') { bracketDepth--; j++; continue; }
+
+        if (ch === '|' && braceDepth === 0 && bracketDepth === 0) {
+          // End of current parameter
+          if (inValue && key) {
+            params[key.trim().toLowerCase()] = value.trim();
+          }
+          key = '';
+          value = '';
+          inValue = false;
+          continue;
+        }
+
+        if (ch === '=' && !inValue && braceDepth === 0 && bracketDepth === 0) {
+          inValue = true;
+          continue;
+        }
+
+        if (inValue) {
+          value += ch;
+        } else {
+          key += ch;
+        }
+      }
+
+      const name = stripWiki(params['name'] || '');
       if (!name) continue;
 
-      const num = parseInt(getParam('no'), 10) || undefined;
-      const pos = getParam('pos');
-      const club = getParam('club');
-      const age = getParam('age');
+      const num = parseInt(params['no'], 10) || undefined;
+      const pos = params['pos'] || '';
+      const club = stripWiki(params['club'] || '');
 
       players.push({
         number: num,
