@@ -131,18 +131,23 @@ async function scrapeWikipedia() {
 
   console.log(`Got ${raw.length} chars of wikitext\n`);
 
-  // ---- Step 1: Find all section headings ----
+  // ---- Step 1: Find all section headings with positions ----
   const allHeadings = [];
   const headingRegex = /^(={2,4})\s*(?:{{[^}]*}})?\s*\[?\[?([^\]}=|\n]+?)\]?\]?\s*\1/gm;
   let hMatch;
   while ((hMatch = headingRegex.exec(raw)) !== null) {
-    allHeadings.push({ title: hMatch[2].trim(), level: hMatch[1].length });
+    allHeadings.push({
+      title: hMatch[2].trim(),
+      level: hMatch[1].length,
+      index: hMatch.index,            // start position in raw text
+      fullMatch: hMatch[0],           // the full matched heading line
+    });
   }
   console.log(`All headings found (${allHeadings.length}):`);
-  allHeadings.forEach(h => console.log(`  L${h.level}: "${h.title}"`));
+  allHeadings.forEach(h => console.log(`  L${h.level} @${h.index}: "${h.title}"`));
   console.log('');
 
-  // ---- Step 2: Split by team sections ----
+  // ---- Step 2: Split by team sections using real positions ----
   const teams = [];
   const teamHeadings = allHeadings.filter(h => h.level >= 2 && h.level <= 3);
 
@@ -151,23 +156,22 @@ async function scrapeWikipedia() {
     const info = matchTeam(heading.title);
     if (!info) continue;
 
-    // Find section boundaries
-    const startMarker = `=${'='.repeat(heading.level)} ${heading.title}`;
-    const startIdx = raw.indexOf(startMarker);
-    if (startIdx === -1) continue;
+    const startIdx = heading.index;
 
-    // End at next heading of same or higher level
+    // End at next heading of same or higher level (L2 stops at next L2, L3 stops at next L2 or L3)
     let endIdx = raw.length;
     for (let j = i + 1; j < teamHeadings.length; j++) {
       if (teamHeadings[j].level <= heading.level) {
-        const nextMarker = `=${'='.repeat(teamHeadings[j].level)} ${teamHeadings[j].title}`;
-        const idx = raw.indexOf(nextMarker, startIdx + startMarker.length);
-        if (idx !== -1) { endIdx = idx; break; }
+        endIdx = teamHeadings[j].index;
+        break;
       }
     }
     const sectionContent = raw.substring(startIdx, endIdx);
 
+    // Show first 400 chars of section for debug
+    const preview = sectionContent.substring(0, 400).replace(/\n/g, '\\n');
     console.log(`  Processing: ${heading.title} -> ${info.cn} (${(endIdx - startIdx).toLocaleString()} chars)`);
+    console.log(`    Preview: ${preview}...`);
 
     // ---- Step 3: Parse player templates ----
     // Wikipedia uses several template variants for squad players:
