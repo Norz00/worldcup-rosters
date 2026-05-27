@@ -181,8 +181,8 @@ async function scrapeWikipedia() {
 
     while ((playerMatch = playerStartRegex.exec(sectionContent)) !== null) {
       const startPos = playerMatch.index;
-      // Find matching }} by counting braces
-      let depth = 2;
+      // Find matching }} by counting braces (start at 1: regex already consumed the opening {{)
+      let depth = 1;
       let endPos = startPos + playerMatch[0].length;
       for (; endPos < sectionContent.length && depth > 0; endPos++) {
         if (sectionContent[endPos] === '{' && sectionContent[endPos + 1] === '{') {
