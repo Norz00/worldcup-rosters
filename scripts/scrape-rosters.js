@@ -1,10 +1,8 @@
 /**
  * 2026 World Cup Roster Scraper
  *
- * Primary: Wikipedia raw wikitext API (most reliable free source)
+ * Primary: Wikipedia raw wikitext API
  * Fallback: Custom JSON API (ROSTER_SOURCE_URL env var)
- *
- * GitHub Actions runs this daily. No local network restrictions on GH servers.
  */
 
 const https = require('https');
@@ -74,8 +72,9 @@ const TEAMS = {
 
 // ---- Helpers ----
 
-function httpGet(url) {
+function httpGet(url, redirects = 0) {
   return new Promise((resolve, reject) => {
+    if (redirects > 5) return reject(new Error('Too many redirects'));
     const u = new URL(url);
     https.get({
       hostname: u.hostname,
@@ -84,7 +83,7 @@ function httpGet(url) {
       timeout: 20000,
     }, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302) {
-        return httpGet(res.headers.location).then(resolve).catch(reject);
+        return httpGet(res.headers.location, redirects + 1).then(resolve).catch(reject);
       }
       if (res.statusCode !== 200) return reject(new Error(`HTTP ${res.statusCode}`));
       let body = '';
@@ -97,6 +96,7 @@ function httpGet(url) {
 function matchTeam(name) {
   const lower = name.toLowerCase().trim();
   if (TEAMS[lower]) return TEAMS[lower];
+  // Try partial match
   for (const [key, val] of Object.entries(TEAMS)) {
     if (lower.includes(key) || key.includes(lower)) return val;
   }
@@ -112,6 +112,8 @@ function stripWiki(text) {
     .replace(/<[^>]+>/g, '')
     .replace(/&amp;/g, '&')
     .replace(/&nbsp;/g, ' ')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
     .trim();
 }
 
@@ -120,78 +122,126 @@ function stripWiki(text) {
 async function scrapeWikipedia() {
   console.log('Fetching Wikipedia raw wikitext...');
 
-  // Get raw wiki markup for "2026 FIFA World Cup squads" page
   const url = 'https://en.wikipedia.org/w/index.php?title=2026_FIFA_World_Cup_squads&action=raw';
   const raw = await httpGet(url);
 
-  if (!raw || raw.length < 1000) {
-    throw new Error('Wikipedia page returned empty or too short');
+  if (!raw || raw.length < 500) {
+    throw new Error(`Wikipedia page too short: ${raw ? raw.length : 0} chars`);
   }
 
-  console.log(`Got ${raw.length} chars of wikitext`);
+  console.log(`Got ${raw.length} chars of wikitext\n`);
 
-  // Parse wiki markup
+  // ---- Step 1: Find all section headings ----
+  const allHeadings = [];
+  const headingRegex = /^(={2,4})\s*(?:{{[^}]*}})?\s*\[?\[?([^\]}=|\n]+?)\]?\]?\s*\1/gm;
+  let hMatch;
+  while ((hMatch = headingRegex.exec(raw)) !== null) {
+    allHeadings.push({ title: hMatch[2].trim(), level: hMatch[1].length });
+  }
+  console.log(`All headings found (${allHeadings.length}):`);
+  allHeadings.forEach(h => console.log(`  L${h.level}: "${h.title}"`));
+  console.log('');
+
+  // ---- Step 2: Split by team sections ----
   const teams = [];
+  const teamHeadings = allHeadings.filter(h => h.level >= 2 && h.level <= 3);
 
-  // Find squad sections: typically === {{flagicon|COUNTRY}} [[COUNTRY]] ===
-  const sectionRegex = /={2,3}\s*(?:{{[^}]+}})?\s*(?:\[\[)?([^\]}=|]+)(?:\]\])?\s*={2,3}\s*[\s\S]*?(?=={2,3}\s*(?:{{[^}]+}})?\s*(?:\[\[)?[^\]}=|]+(?:\]\])?\s*={2,3}|$)/g;
-
-  let sectionMatch;
-  while ((sectionMatch = sectionRegex.exec(raw)) !== null) {
-    const sectionTitle = sectionMatch[1].trim();
-    const sectionContent = sectionMatch[0];
-
-    const info = matchTeam(sectionTitle);
+  for (let i = 0; i < teamHeadings.length; i++) {
+    const heading = teamHeadings[i];
+    const info = matchTeam(heading.title);
     if (!info) continue;
 
-    console.log(`  Found section: ${sectionTitle} -> ${info.cn}`);
+    // Find section boundaries
+    const startMarker = `=${'='.repeat(heading.level)} ${heading.title}`;
+    const startIdx = raw.indexOf(startMarker);
+    if (startIdx === -1) continue;
 
-    // Parse players from this section
+    // End at next heading of same or higher level
+    let endIdx = raw.length;
+    for (let j = i + 1; j < teamHeadings.length; j++) {
+      if (teamHeadings[j].level <= heading.level) {
+        const nextMarker = `=${'='.repeat(teamHeadings[j].level)} ${teamHeadings[j].title}`;
+        const idx = raw.indexOf(nextMarker, startIdx + startMarker.length);
+        if (idx !== -1) { endIdx = idx; break; }
+      }
+    }
+    const sectionContent = raw.substring(startIdx, endIdx);
+
+    console.log(`  Processing: ${heading.title} -> ${info.cn} (${(endIdx - startIdx).toLocaleString()} chars)`);
+
+    // ---- Step 3: Parse player templates ----
+    // Wikipedia uses several template variants for squad players:
+    // {{nat fs player|...}}       - standard
+    // {{nat fs r player|...}}     - reserve
+    // {{nat fs g player|...}}     - goalkeeper specific
+    // {{nat fs start|...}}        - starting lineup
+    // The template body is everything between {{...}} that starts with these prefixes
+    const playerRegex = /\{\{\s*(?:nat|fs)\s+(?:fs|squad)\s+(?:r\s+|g\s+)?player\s*\|([^}]+?(?:\}\}[^}]*?\{\{[^}]*?player[^}]*?\}|\{\{[^}]*?\}\}[^}]*?)*?)\}\}/gi;
+    // Simpler: just match {{...player|... then extract up to matching }}
+
+    // Use a simpler approach: find each "player" template start, then count braces
+    const simplePlayerRegex = /\{\{(?:nat|fs)\s+(?:fs|squad)\s+(?:r\s+|g\s+)?player\s*\|/gi;
+    let playerMatch;
     const players = [];
 
-    // Wiki squad template format:
-    // {{nat fs player|no=1|pos=GK|name=[[Player]]|club=[[Club]]}}
-    // {{nat fs player|no= |pos= |name= |club= }}
-    const playerRegex = /\{\{(?:nat|fs)[ _](?:fs|squad)[ _]player\s*\|([^}]+)\}\}/gi;
-    let playerMatch;
-    while ((playerMatch = playerRegex.exec(sectionContent)) !== null) {
-      const params = playerMatch[1];
+    while ((playerMatch = simplePlayerRegex.exec(sectionContent)) !== null) {
+      const startPos = playerMatch.index;
+      // Find matching }} by counting braces
+      let depth = 2; // we already matched {{
+      let endPos = startPos + playerMatch[0].length;
+      for (; endPos < sectionContent.length && depth > 0; endPos++) {
+        if (sectionContent[endPos] === '{' && sectionContent[endPos + 1] === '{') {
+          depth++; endPos++;
+        } else if (sectionContent[endPos] === '}' && sectionContent[endPos + 1] === '}') {
+          depth--; endPos++;
+        }
+      }
+      const templateBody = sectionContent.substring(startPos + 2, endPos - 1); // strip outer {{ }}
+      // Get params after the first |
+      const pipeIdx = templateBody.indexOf('|');
+      if (pipeIdx === -1) continue;
+      const params = templateBody.substring(pipeIdx + 1);
 
       const getParam = (key) => {
-        const re = new RegExp(`\\b${key}\\s*=\\s*([^|}]*)`, 'i');
+        // Match |key=value where value can contain nested templates
+        const re = new RegExp(`\\|\\s*${key}\\s*=\\s*((?:(?!\\|\\s*(?:${key}\\w*)\\s*=)[^])*)`, 'i');
         const m = params.match(re);
         return m ? stripWiki(m[1].trim()) : '';
       };
 
+      const name = getParam('name');
+      if (!name) continue;
+
       const num = parseInt(getParam('no'), 10) || undefined;
       const pos = getParam('pos');
-      const name = getParam('name');
       const club = getParam('club');
+      const age = getParam('age');
 
-      if (name) {
-        players.push({
-          number: num,
-          name,
-          position: pos || '未知',
-          club: club || '未知',
-        });
-      }
+      players.push({
+        number: num,
+        name,
+        position: pos || '未知',
+        club: club || '未知',
+      });
     }
 
-    // Also try standard wiki table format: {| class="wikitable"
-    if (players.length === 0) {
-      // Parse tables manually from raw wikitext
-      const tableRegex = /\{\|\s*class="wikitable"[\s\S]*?\|\}/g;
-      // ... skip for now, template format is more common
+    console.log(`    Players found: ${players.length}`);
+
+    // ---- Step 4: Find coach ----
+    const coachPatterns = [
+      /\{\{(?:nat|fs)\s+(?:fs|squad)\s+coach\s*\|([^}]+)\}\}/i,
+      /\{\{(?:nat|fs)\s+(?:fs|squad)\s+manager\s*\|([^}]+)\}\}/i,
+      /Head coach[:\s]*\[\[([^\]]+)\]\]/i,
+      /Coach[:\s]*\[\[([^\]]+)\]\]/i,
+      /Manager[:\s]*\[\[([^\]]+)\]\]/i,
+    ];
+    let coach;
+    for (const re of coachPatterns) {
+      const m = sectionContent.match(re);
+      if (m) { coach = stripWiki(m[1]); break; }
     }
 
     if (players.length > 0) {
-      console.log(`    ${players.length} players found`);
-
-      // Find coach
-      const coachMatch = sectionContent.match(/(?:Head coach|Manager|Coach)[^=]*?(?:\[\[)?([^\]|}\n]+)/i);
-      const coach = coachMatch ? stripWiki(coachMatch[1]) : undefined;
-
       teams.push({
         name: info.cn,
         name_en: info.en,
@@ -239,7 +289,7 @@ async function main() {
     console.log('[2] Wikipedia scraper...');
     try {
       newTeams = await scrapeWikipedia();
-      console.log(`    Got ${newTeams.filter(t => t.status === 'announced').length} teams with players`);
+      console.log(`\nTotal teams with players: ${newTeams.filter(t => t.players && t.players.length > 0).length}`);
     } catch (e) {
       console.log(`    Failed: ${e.message}`);
     }
@@ -252,12 +302,12 @@ async function main() {
   })();
 
   if (!newTeams || newTeams.length === 0) {
-    console.log('\n⚠️  No new data. Keeping existing file.');
+    console.log('\nNo new data scraped. Keeping existing file.');
     if (existing) console.log(`    Existing: ${existing.teams.filter(t => t.status === 'announced').length} announced`);
     return;
   }
 
-  // Merge: keep existing announced teams not in scrape
+  // Merge: preserve existing announced teams not in new scrape
   const scrapedNames = new Set(newTeams.map(t => t.name_en.toLowerCase()));
   const existingTeams = existing?.teams || [];
   for (const t of existingTeams) {
@@ -268,17 +318,14 @@ async function main() {
     }
   }
 
-  // Ensure all 48 teams
-  const present = new Set(newTeams.map(t => t.name_en.toLowerCase()));
+  // Ensure all 48 teams present (dedup by name_en)
+  const seen = new Set(newTeams.map(t => t.name_en.toLowerCase()));
   for (const [_, info] of Object.entries(TEAMS)) {
-    if (!present.has(info.en.toLowerCase())) {
-      // Check not already present by cn name
-      if (!newTeams.find(t => t.name === info.cn)) {
-        newTeams.push({
-          name: info.cn, name_en: info.en,
-          status: 'pending', players: [],
-        });
-      }
+    if (!seen.has(info.en.toLowerCase()) && !newTeams.find(t => t.name === info.cn)) {
+      newTeams.push({
+        name: info.cn, name_en: info.en,
+        status: 'pending', players: [],
+      });
     }
   }
 
@@ -296,11 +343,11 @@ async function main() {
   } else {
     fs.writeFileSync(OUTPUT, newJson, 'utf-8');
     const announced = newTeams.filter(t => t.status === 'announced').length;
-    console.log(`\n✅ Updated: ${announced}/48 teams announced`);
+    console.log(`\nUpdated: ${announced}/48 teams announced`);
   }
 }
 
 main().catch(e => {
-  console.error(`\n❌ ${e.message}`);
+  console.error(`\n${e.message}`);
   process.exit(1);
 });
