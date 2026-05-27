@@ -522,175 +522,139 @@
         },
         {
           "number": 4,
-          "name": "Brandon Peterson",
-          "position": "GK",
-          "club": "Kaizer Chiefs"
-        },
-        {
-          "number": 5,
           "name": "Aubrey Modiba",
           "position": "DF",
           "club": "Mamelodi Sundowns"
         },
         {
-          "number": 6,
+          "number": 5,
           "name": "Khuliso Mudau",
           "position": "DF",
           "club": "Mamelodi Sundowns"
         },
         {
-          "number": 7,
+          "number": 6,
           "name": "Nkosinathi Sibisi",
           "position": "DF",
           "club": "Orlando Pirates"
         },
         {
-          "number": 8,
+          "number": 7,
           "name": "Mbekezeli Mbokazi",
           "position": "DF",
           "club": "Chicago Fire"
         },
         {
-          "number": 9,
+          "number": 8,
           "name": "Ime Okon",
           "position": "DF",
           "club": "Hannover 96"
         },
         {
-          "number": 10,
+          "number": 9,
           "name": "Samukele Kabini",
           "position": "DF",
           "club": "Molde"
         },
         {
-          "number": 11,
+          "number": 10,
           "name": "Khulumani Ndamane",
           "position": "DF",
           "club": "Mamelodi Sundowns"
         },
         {
-          "number": 12,
+          "number": 11,
           "name": "Thabang Matuludi",
           "position": "DF",
           "club": "Polokwane City"
         },
         {
-          "number": 13,
-          "name": "Thabiso Monyane",
+          "number": 12,
+          "name": "Kamogelo Sebelebele",
           "position": "DF",
-          "club": "Kaizer Chiefs"
+          "club": "Orlando Pirates"
         },
         {
-          "number": 14,
+          "number": 13,
           "name": "Bradley Cross",
           "position": "DF",
           "club": "Kaizer Chiefs"
         },
         {
-          "number": 15,
+          "number": 14,
           "name": "Olwethu Makhanya",
           "position": "DF",
           "club": "Philadelphia Union"
         },
         {
-          "number": 16,
+          "number": 15,
           "name": "Teboho Mokoena",
           "position": "MF",
           "club": "Mamelodi Sundowns"
         },
         {
-          "number": 17,
+          "number": 16,
           "name": "Sphephelo Sithole",
           "position": "MF",
           "club": "Tondela"
         },
         {
-          "number": 18,
-          "name": "Lebohang Maboe",
-          "position": "MF",
-          "club": "Kaizer Chiefs"
-        },
-        {
-          "number": 19,
+          "number": 17,
           "name": "Thalente Mbatha",
           "position": "MF",
           "club": "Orlando Pirates"
         },
         {
-          "number": 20,
+          "number": 18,
           "name": "Jayden Adams",
           "position": "MF",
           "club": "Mamelodi Sundowns"
         },
         {
-          "number": 21,
-          "name": "Brooklyn Poggenpoel",
-          "position": "MF",
-          "club": "Durban City"
-        },
-        {
-          "number": 22,
+          "number": 19,
           "name": "Themba Zwane",
           "position": "FW",
           "club": "Mamelodi Sundowns"
         },
         {
-          "number": 23,
-          "name": "Thapelo Morena",
-          "position": "FW",
-          "club": "Mamelodi Sundowns"
-        },
-        {
-          "number": 24,
+          "number": 20,
           "name": "Lyle Foster",
           "position": "FW",
           "club": "Burnley"
         },
         {
-          "number": 25,
+          "number": 21,
           "name": "Evidence Makgopa",
           "position": "FW",
           "club": "Orlando Pirates"
         },
         {
-          "number": 26,
+          "number": 22,
           "name": "Oswin Appollis",
           "position": "FW",
           "club": "Orlando Pirates"
         },
         {
-          "number": 27,
+          "number": 23,
           "name": "Iqraam Rayners",
           "position": "FW",
           "club": "Mamelodi Sundowns"
         },
         {
-          "number": 28,
+          "number": 24,
           "name": "Relebohile Mofokeng",
           "position": "FW",
           "club": "Orlando Pirates"
         },
         {
-          "number": 29,
+          "number": 25,
           "name": "Thapelo Maseko",
           "position": "FW",
           "club": "AEL Limassol"
         },
         {
-          "number": 30,
+          "number": 26,
           "name": "Tshepang Moremi",
-          "position": "FW",
-          "club": "Orlando Pirates"
-        },
-        {
-          "number": 31,
-          "name": "Patrick Maswanganyi",
-          "position": "FW",
-          "club": "Orlando Pirates"
-        },
-        {
-          "number": 32,
-          "name": "Kamogelo Sebelebele",
           "position": "FW",
           "club": "Orlando Pirates"
         }
@@ -2003,45 +1967,45 @@
         },
         {
           "number": 19,
+          "name": "Gessime Yassine",
+          "position": "MF",
+          "club": "Strasbourg"
+        },
+        {
+          "number": 20,
           "name": "Ayyoub Bouaddi",
           "position": "MF",
           "club": "Lille"
         },
         {
-          "number": 20,
+          "number": 21,
           "name": "Ayoub El Kaabi",
           "position": "FW",
           "club": "Olympiacos"
         },
         {
-          "number": 21,
+          "number": 22,
           "name": "Abde Ezzalzouli",
           "position": "FW",
           "club": "Real Betis"
         },
         {
-          "number": 22,
+          "number": 23,
           "name": "Soufiane Rahimi",
           "position": "FW",
           "club": "Al Ain"
         },
         {
-          "number": 23,
+          "number": 24,
           "name": "Brahim Díaz",
           "position": "FW",
           "club": "Real Madrid"
         },
         {
-          "number": 24,
+          "number": 25,
           "name": "Chemsdine Talbi",
           "position": "FW",
           "club": "Sunderland"
-        },
-        {
-          "number": 25,
-          "name": "Gessime Yassine",
-          "position": "FW",
-          "club": "Strasbourg"
         },
         {
           "number": 26,
@@ -4290,7 +4254,7 @@
         },
         {
           "number": 8,
-          "name": "Ahmed Abou El Fotouh",
+          "name": "Ahmed Fatouh",
           "position": "DF",
           "club": "Zamalek"
         },
@@ -4783,7 +4747,7 @@
           "number": 3,
           "name": "CJ dos Santos",
           "position": "GK",
-          "club": "San Diego"
+          "club": "San Diego FC"
         },
         {
           "number": 4,
@@ -7944,7 +7908,7 @@
           "number": 14,
           "name": "Aníbal Godoy",
           "position": "MF",
-          "club": "San Diego"
+          "club": "San Diego FC"
         },
         {
           "number": 15,
