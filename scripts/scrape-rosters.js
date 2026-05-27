@@ -174,10 +174,10 @@ async function scrapeWikipedia() {
     console.log(`    Preview: ${preview}...`);
 
     // ---- Step 3: Parse player templates ----
-    // Wikipedia template variants: nat fs player, nat fs r player, nat fs g player
     const playerStartRegex = /\{\{(?:nat|fs)\s+(?:fs|squad)\s+(?:r\s+|g\s+)?player\s*\|/gi;
     let playerMatch;
     const players = [];
+    let debugCount = 0;
 
     while ((playerMatch = playerStartRegex.exec(sectionContent)) !== null) {
       const startPos = playerMatch.index;
@@ -191,10 +191,19 @@ async function scrapeWikipedia() {
           depth--; endPos++;
         }
       }
+      // IMPORTANT: advance regex lastIndex past this template so we don't re-match inside it
+      playerStartRegex.lastIndex = endPos;
+
       const templateBody = sectionContent.substring(startPos + 2, endPos - 1);
       const pipeIdx = templateBody.indexOf('|');
       if (pipeIdx === -1) continue;
       const paramsStr = templateBody.substring(pipeIdx + 1);
+
+      // Debug: print raw params of first 2 players for first team
+      if (debugCount < 2) {
+        console.log(`    [DEBUG player ${debugCount + 1}] paramsStr: ${paramsStr.substring(0, 200)}`);
+        debugCount++;
+      }
 
       // Parse parameters respecting nested {{...}} and [[...]]
       const params = {};
@@ -205,16 +214,32 @@ async function scrapeWikipedia() {
       let bracketDepth = 0;
 
       for (let j = 0; j <= paramsStr.length; j++) {
-        const ch = j < paramsStr.length ? paramsStr[j] : '|'; // treat end as separator
+        const ch = j < paramsStr.length ? paramsStr[j] : '|';
         const nextCh = j < paramsStr.length - 1 ? paramsStr[j + 1] : '';
 
-        if (ch === '{' && nextCh === '{') { braceDepth++; j++; continue; }
-        if (ch === '}' && nextCh === '}') { braceDepth--; j++; continue; }
-        if (ch === '[' && nextCh === '[') { bracketDepth++; j++; continue; }
-        if (ch === ']' && nextCh === ']') { bracketDepth--; j++; continue; }
+        // Track nested structures, keeping brackets in value so stripWiki can process them
+        if (ch === '{' && nextCh === '{') {
+          braceDepth++;
+          if (inValue) value += '{{';
+          j++; continue;
+        }
+        if (ch === '}' && nextCh === '}') {
+          braceDepth--;
+          if (inValue) value += '}}';
+          j++; continue;
+        }
+        if (ch === '[' && nextCh === '[') {
+          bracketDepth++;
+          if (inValue) value += '[[';
+          j++; continue;
+        }
+        if (ch === ']' && nextCh === ']') {
+          bracketDepth--;
+          if (inValue) value += ']]';
+          j++; continue;
+        }
 
         if (ch === '|' && braceDepth === 0 && bracketDepth === 0) {
-          // End of current parameter
           if (inValue && key) {
             params[key.trim().toLowerCase()] = value.trim();
           }
