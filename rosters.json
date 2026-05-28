@@ -4362,15 +4362,15 @@
         },
         {
           "number": 26,
-          "name": "Aqtay Abdallah",
-          "position": "FW",
-          "club": "ENPPI"
-        },
-        {
-          "number": 27,
           "name": "Hamza Abdelkarim",
           "position": "FW",
           "club": "Barcelona B"
+        },
+        {
+          "number": 27,
+          "name": "Aqtay Abdallah",
+          "position": "FW",
+          "club": "ENPPI"
         }
       ]
     },
@@ -5963,333 +5963,159 @@
       "players": [
         {
           "number": 1,
-          "name": "Emiliano Martínez",
-          "position": "GK",
-          "club": "Aston Villa"
-        },
-        {
-          "number": 2,
-          "name": "Gerónimo Rulli",
-          "position": "GK",
-          "club": "Marseille"
-        },
-        {
-          "number": 3,
           "name": "Juan Musso",
           "position": "GK",
           "club": "Atlético Madrid"
         },
         {
-          "number": 4,
-          "name": "Walter Benítez",
-          "position": "GK",
-          "club": "Crystal Palace"
-        },
-        {
-          "number": 5,
-          "name": "Facundo Cambeses",
-          "position": "GK",
-          "club": "Racing"
-        },
-        {
-          "number": 6,
-          "name": "Santiago Beltrán",
-          "position": "GK",
-          "club": "River Plate"
-        },
-        {
-          "number": 7,
-          "name": "Nicolás Otamendi",
-          "position": "DF",
-          "club": "Benfica"
-        },
-        {
-          "number": 8,
-          "name": "Nicolás Tagliafico",
-          "position": "DF",
-          "club": "Lyon"
-        },
-        {
-          "number": 9,
-          "name": "Marcos Acuña",
-          "position": "DF",
-          "club": "River Plate"
-        },
-        {
-          "number": 10,
-          "name": "Nahuel Molina",
-          "position": "DF",
-          "club": "Atlético Madrid"
-        },
-        {
-          "number": 11,
-          "name": "Cristian Romero",
-          "position": "DF",
-          "club": "Tottenham Hotspur"
-        },
-        {
-          "number": 12,
-          "name": "Germán Pezzella",
-          "position": "DF",
-          "club": "River Plate"
-        },
-        {
-          "number": 13,
-          "name": "Gonzalo Montiel",
-          "position": "DF",
-          "club": "River Plate"
-        },
-        {
-          "number": 14,
-          "name": "Lisandro Martínez",
-          "position": "DF",
-          "club": "Manchester United"
-        },
-        {
-          "number": 15,
-          "name": "Lucas Martínez Quarta",
-          "position": "DF",
-          "club": "River Plate"
-        },
-        {
-          "number": 16,
+          "number": 2,
           "name": "Leonardo Balerdi",
           "position": "DF",
           "club": "Marseille"
         },
         {
-          "number": 17,
-          "name": "Facundo Medina",
+          "number": 3,
+          "name": "Nicolás Tagliafico",
           "position": "DF",
-          "club": "Marseille"
+          "club": "Lyon"
         },
         {
-          "number": 18,
-          "name": "Marcos Senesi",
+          "number": 4,
+          "name": "Gonzalo Montiel",
           "position": "DF",
-          "club": "Bournemouth"
+          "club": "River Plate"
         },
         {
-          "number": 19,
-          "name": "Agustín Giay",
-          "position": "DF",
-          "club": "Palmeiras"
-        },
-        {
-          "number": 20,
-          "name": "Kevin Mac Allister",
-          "position": "DF",
-          "club": "Union Saint-Gilloise"
-        },
-        {
-          "number": 21,
-          "name": "Gabriel Rojas",
-          "position": "DF",
-          "club": "Racing"
-        },
-        {
-          "number": 22,
-          "name": "Nicolás Capaldo",
-          "position": "DF",
-          "club": "Hamburger SV"
-        },
-        {
-          "number": 23,
-          "name": "Lautaro Di Lollo",
-          "position": "DF",
-          "club": "Boca Juniors"
-        },
-        {
-          "number": 24,
-          "name": "Zaid Romero",
-          "position": "DF",
-          "club": "Getafe"
-        },
-        {
-          "number": 25,
-          "name": "Rodrigo De Paul",
-          "position": "MF",
-          "club": "Inter Miami CF"
-        },
-        {
-          "number": 26,
+          "number": 5,
           "name": "Leandro Paredes",
           "position": "MF",
           "club": "Boca Juniors"
         },
         {
-          "number": 27,
-          "name": "Giovani Lo Celso",
-          "position": "MF",
-          "club": "Real Betis"
+          "number": 6,
+          "name": "Lisandro Martínez",
+          "position": "DF",
+          "club": "Manchester United"
         },
         {
-          "number": 28,
-          "name": "Alexis Mac Allister",
+          "number": 7,
+          "name": "Rodrigo De Paul",
           "position": "MF",
-          "club": "Liverpool"
+          "club": "Inter Miami CF"
         },
         {
-          "number": 29,
-          "name": "Enzo Fernández",
-          "position": "MF",
-          "club": "Chelsea"
-        },
-        {
-          "number": 30,
-          "name": "Exequiel Palacios",
-          "position": "MF",
-          "club": "Bayer Leverkusen"
-        },
-        {
-          "number": 31,
-          "name": "Guido Rodríguez",
-          "position": "MF",
-          "club": "Valencia"
-        },
-        {
-          "number": 32,
-          "name": "Thiago Almada",
-          "position": "MF",
-          "club": "Atlético Madrid"
-        },
-        {
-          "number": 33,
-          "name": "Nicolás Domínguez",
-          "position": "MF",
-          "club": "Nottingham Forest"
-        },
-        {
-          "number": 34,
-          "name": "Giuliano Simeone",
-          "position": "MF",
-          "club": "Atlético Madrid"
-        },
-        {
-          "number": 35,
-          "name": "Nico Paz",
-          "position": "MF",
-          "club": "Como"
-        },
-        {
-          "number": 36,
+          "number": 8,
           "name": "Valentín Barco",
           "position": "MF",
           "club": "Strasbourg"
         },
         {
-          "number": 37,
-          "name": "Emiliano Buendía",
-          "position": "MF",
-          "club": "Aston Villa"
-        },
-        {
-          "number": 38,
-          "name": "Máximo Perrone",
-          "position": "MF",
-          "club": "Como"
-        },
-        {
-          "number": 39,
-          "name": "Aníbal Moreno",
-          "position": "MF",
-          "club": "River Plate"
-        },
-        {
-          "number": 40,
-          "name": "Milton Delgado",
-          "position": "MF",
-          "club": "Boca Juniors"
-        },
-        {
-          "number": 41,
-          "name": "Equi Fernández",
-          "position": "MF",
-          "club": "Bayer Leverkusen"
-        },
-        {
-          "number": 42,
-          "name": "Alan Varela",
-          "position": "MF",
-          "club": "Porto"
-        },
-        {
-          "number": 43,
-          "name": "Lionel Messi",
-          "position": "FW",
-          "club": "Inter Miami CF"
-        },
-        {
-          "number": 44,
-          "name": "Lautaro Martínez",
-          "position": "FW",
-          "club": "Inter Milan"
-        },
-        {
-          "number": 45,
+          "number": 9,
           "name": "Julián Alvarez",
           "position": "FW",
           "club": "Atlético Madrid"
         },
         {
-          "number": 46,
+          "number": 10,
+          "name": "Lionel Messi",
+          "position": "FW",
+          "club": "Inter Miami CF"
+        },
+        {
+          "number": 11,
+          "name": "Giovani Lo Celso",
+          "position": "MF",
+          "club": "Real Betis"
+        },
+        {
+          "number": 12,
+          "name": "Gerónimo Rulli",
+          "position": "GK",
+          "club": "Marseille"
+        },
+        {
+          "number": 13,
+          "name": "Cristian Romero",
+          "position": "DF",
+          "club": "Tottenham Hotspur"
+        },
+        {
+          "number": 14,
+          "name": "Exequiel Palacios",
+          "position": "MF",
+          "club": "Bayer Leverkusen"
+        },
+        {
+          "number": 15,
           "name": "Nicolás González",
           "position": "FW",
           "club": "Atlético Madrid"
         },
         {
-          "number": 47,
-          "name": "Alejandro Garnacho",
+          "number": 16,
+          "name": "Thiago Almada",
           "position": "FW",
-          "club": "Chelsea"
+          "club": "Atlético Madrid"
         },
         {
-          "number": 48,
-          "name": "Franco Mastantuono",
+          "number": 17,
+          "name": "Giuliano Simeone",
           "position": "FW",
-          "club": "Real Madrid"
+          "club": "Atlético Madrid"
         },
         {
-          "number": 49,
+          "number": 18,
+          "name": "Nico Paz",
+          "position": "FW",
+          "club": "Como"
+        },
+        {
+          "number": 19,
+          "name": "Nicolás Otamendi",
+          "position": "DF",
+          "club": "Benfica"
+        },
+        {
+          "number": 20,
+          "name": "Alexis Mac Allister",
+          "position": "MF",
+          "club": "Liverpool"
+        },
+        {
+          "number": 21,
           "name": "José Manuel López",
           "position": "FW",
           "club": "Palmeiras"
         },
         {
-          "number": 50,
-          "name": "Gianluca Prestianni",
+          "number": 22,
+          "name": "Lautaro Martínez",
           "position": "FW",
-          "club": "Benfica"
+          "club": "Inter Milan"
         },
         {
-          "number": 51,
-          "name": "Tomás Aranda",
-          "position": "FW",
-          "club": "Boca Juniors"
+          "number": 23,
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "club": "Aston Villa"
         },
         {
-          "number": 52,
-          "name": "Santiago Castro",
-          "position": "FW",
-          "club": "Bologna"
+          "number": 24,
+          "name": "Enzo Fernández",
+          "position": "MF",
+          "club": "Chelsea"
         },
         {
-          "number": 53,
-          "name": "Claudio Echeverri",
-          "position": "FW",
-          "club": "Girona"
+          "number": 25,
+          "name": "Facundo Medina",
+          "position": "DF",
+          "club": "Marseille"
         },
         {
-          "number": 54,
-          "name": "Mateo Pellegrino",
-          "position": "FW",
-          "club": "Parma"
-        },
-        {
-          "number": 55,
-          "name": "Matías Soulé",
-          "position": "FW",
-          "club": "Roma"
+          "number": 26,
+          "name": "Nahuel Molina",
+          "position": "DF",
+          "club": "Atlético Madrid"
         }
       ]
     },
@@ -7096,7 +6922,7 @@
         },
         {
           "number": 21,
-          "name": "Rafael Leão",
+          "name": "Rafael Le��o",
           "position": "FW",
           "club": "Milan"
         },
