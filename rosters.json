@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-28",
   "teams": [
     {
       "name": "捷克",
@@ -1967,45 +1967,45 @@
         },
         {
           "number": 19,
-          "name": "Gessime Yassine",
-          "position": "MF",
-          "club": "Strasbourg"
-        },
-        {
-          "number": 20,
           "name": "Ayyoub Bouaddi",
           "position": "MF",
           "club": "Lille"
         },
         {
-          "number": 21,
+          "number": 20,
           "name": "Ayoub El Kaabi",
           "position": "FW",
           "club": "Olympiacos"
         },
         {
-          "number": 22,
+          "number": 21,
           "name": "Abde Ezzalzouli",
           "position": "FW",
           "club": "Real Betis"
         },
         {
-          "number": 23,
+          "number": 22,
           "name": "Soufiane Rahimi",
           "position": "FW",
           "club": "Al Ain"
         },
         {
-          "number": 24,
+          "number": 23,
           "name": "Brahim Díaz",
           "position": "FW",
           "club": "Real Madrid"
         },
         {
-          "number": 25,
+          "number": 24,
           "name": "Chemsdine Talbi",
           "position": "FW",
           "club": "Sunderland"
+        },
+        {
+          "number": 25,
+          "name": "Gessime Yassine",
+          "position": "FW",
+          "club": "Strasbourg"
         },
         {
           "number": 26,
