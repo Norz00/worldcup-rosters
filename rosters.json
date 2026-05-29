@@ -995,99 +995,99 @@
       "players": [
         {
           "number": 1,
-          "name": "Maxime Crépeau",
-          "position": "GK",
-          "club": "Orlando City SC"
-        },
-        {
-          "number": 2,
           "name": "Dayne St. Clair",
           "position": "GK",
           "club": "Inter Miami CF"
         },
         {
-          "number": 3,
-          "name": "Owen Goodman",
-          "position": "GK",
-          "club": "Barnsley"
-        },
-        {
-          "number": 4,
-          "name": "Richie Laryea",
-          "position": "DF",
-          "club": "Toronto FC"
-        },
-        {
-          "number": 5,
-          "name": "Alphonso Davies",
-          "position": "DF",
-          "club": "Bayern Munich"
-        },
-        {
-          "number": 6,
+          "number": 2,
           "name": "Alistair Johnston",
           "position": "DF",
           "club": "Celtic"
         },
         {
-          "number": 7,
-          "name": "Derek Cornelius",
-          "position": "DF",
-          "club": "Rangers"
-        },
-        {
-          "number": 8,
-          "name": "Moïse Bombito",
-          "position": "DF",
-          "club": "Nice"
-        },
-        {
-          "number": 9,
-          "name": "Niko Sigur",
-          "position": "DF",
-          "club": "Hajduk Split"
-        },
-        {
-          "number": 10,
-          "name": "Joel Waterman",
-          "position": "DF",
-          "club": "Chicago Fire FC"
-        },
-        {
-          "number": 11,
+          "number": 3,
           "name": "Luc de Fougerolles",
           "position": "DF",
           "club": "Dender"
         },
         {
-          "number": 12,
-          "name": "Zorhan Bassong",
-          "position": "DF",
-          "club": "Sporting Kansas City"
-        },
-        {
-          "number": 13,
-          "name": "Jamie Knight-Lebel",
-          "position": "DF",
-          "club": "Swindon Town"
-        },
-        {
-          "number": 14,
-          "name": "Ralph Priso",
-          "position": "DF",
-          "club": "Vancouver Whitecaps FC"
-        },
-        {
-          "number": 15,
+          "number": 4,
           "name": "Alfie Jones",
           "position": "DF",
           "club": "Middlesbrough"
         },
         {
-          "number": 16,
-          "name": "Jonathan Osorio",
+          "number": 5,
+          "name": "Joel Waterman",
+          "position": "DF",
+          "club": "Chicago Fire FC"
+        },
+        {
+          "number": 6,
+          "name": "Mathieu Choinière",
           "position": "MF",
-          "club": "Toronto FC"
+          "club": "Los Angeles FC"
+        },
+        {
+          "number": 7,
+          "name": "Stephen Eustáquio",
+          "position": "MF",
+          "club": "Los Angeles FC"
+        },
+        {
+          "number": 8,
+          "name": "Ismaël Koné",
+          "position": "MF",
+          "club": "Sassuolo"
+        },
+        {
+          "number": 9,
+          "name": "Cyle Larin",
+          "position": "FW",
+          "club": "Southampton"
+        },
+        {
+          "number": 10,
+          "name": "Jonathan David",
+          "position": "FW",
+          "club": "Juventus"
+        },
+        {
+          "number": 11,
+          "name": "Liam Millar",
+          "position": "MF",
+          "club": "Hull City"
+        },
+        {
+          "number": 12,
+          "name": "Tani Oluwaseyi",
+          "position": "FW",
+          "club": "Villarreal"
+        },
+        {
+          "number": 13,
+          "name": "Derek Cornelius",
+          "position": "DF",
+          "club": "Rangers"
+        },
+        {
+          "number": 14,
+          "name": "Jacob Shaffelburg",
+          "position": "MF",
+          "club": "Los Angeles FC"
+        },
+        {
+          "number": 15,
+          "name": "Moïse Bombito",
+          "position": "DF",
+          "club": "Nice"
+        },
+        {
+          "number": 16,
+          "name": "Maxime Crépeau",
+          "position": "GK",
+          "club": "Orlando City SC"
         },
         {
           "number": 17,
@@ -1097,93 +1097,57 @@
         },
         {
           "number": 18,
-          "name": "Stephen Eustáquio",
-          "position": "MF",
-          "club": "Los Angeles FC"
+          "name": "Owen Goodman",
+          "position": "GK",
+          "club": "Barnsley"
         },
         {
           "number": 19,
-          "name": "Liam Millar",
-          "position": "MF",
-          "club": "Hull City"
+          "name": "Alphonso Davies",
+          "position": "DF",
+          "club": "Bayern Munich"
         },
         {
           "number": 20,
-          "name": "Ismaël Koné",
-          "position": "MF",
-          "club": "Sassuolo"
-        },
-        {
-          "number": 21,
-          "name": "Jacob Shaffelburg",
-          "position": "MF",
-          "club": "Los Angeles FC"
-        },
-        {
-          "number": 22,
           "name": "Ali Ahmed",
           "position": "MF",
           "club": "Norwich City"
         },
         {
-          "number": 23,
-          "name": "Mathieu Choinière",
+          "number": 21,
+          "name": "Jonathan Osorio",
           "position": "MF",
-          "club": "Los Angeles FC"
+          "club": "Toronto FC"
+        },
+        {
+          "number": 22,
+          "name": "Richie Laryea",
+          "position": "DF",
+          "club": "Toronto FC"
+        },
+        {
+          "number": 23,
+          "name": "Niko Sigur",
+          "position": "DF",
+          "club": "Hajduk Split"
         },
         {
           "number": 24,
-          "name": "Nathan Saliba",
-          "position": "MF",
-          "club": "Anderlecht"
+          "name": "Promise David",
+          "position": "FW",
+          "club": "Union Saint-Gilloise"
         },
         {
           "number": 25,
-          "name": "Jayden Nelson",
+          "name": "Nathan Saliba",
           "position": "MF",
-          "club": "Austin FC"
+          "club": "Anderlecht"
         },
         {
           "number": 26,
           "name": "Marcelo Flores",
           "position": "MF",
           "club": "UANL"
-        },
-        {
-          "number": 27,
-          "name": "Cyle Larin",
-          "position": "FW",
-          "club": "Southampton"
-        },
-        {
-          "number": 28,
-          "name": "Jonathan David",
-          "position": "FW",
-          "club": "Juventus"
-        },
-        {
-          "number": 29,
-          "name": "Tani Oluwaseyi",
-          "position": "FW",
-          "club": "Villarreal"
-        },
-        {
-          "number": 30,
-          "name": "Promise David",
-          "position": "FW",
-          "club": "Union Saint-Gilloise"
-        },
-        {
-          "number": 31,
-          "name": "Jacen Russell-Rowe",
-          "position": "FW",
-          "club": "Toulouse"
-        },
-        {
-          "number": 32,
-          "name": "Daniel Jebbison",
-          "position": "FW",
-          "club": "Preston North End"
         }
       ]
     },
@@ -3291,9 +3255,9 @@
         },
         {
           "number": 11,
-          "name": "Clément Akpa",
+          "name": "Christopher Opéri",
           "position": "DF",
-          "club": "Auxerre"
+          "club": "İstanbul Başakşehir"
         },
         {
           "number": 12,
@@ -7450,7 +7414,7 @@
           "number": 23,
           "name": "Anthony Gordon",
           "position": "FW",
-          "club": "Newcastle United"
+          "club": "Newcastle United{{refn|group=note|Gordon is set to join FC Barcelona mid-way through the tournament on July 1, 2026.{{cite web |title=Anthony Gordon becomes an FC Barcelona player |url=https://www.fcbarcelona.com/en/news/4511134/anthony-gordon-becomes-an-fc-barcelona-player |publisher=FC Barcelona |access-date=29 May 2026 |date=29 May 2026}}}}"
         },
         {
           "number": 24,
