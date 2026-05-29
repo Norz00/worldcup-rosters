@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "teams": [
     {
       "name": "捷克",
@@ -542,7 +542,7 @@
           "number": 7,
           "name": "Mbekezeli Mbokazi",
           "position": "DF",
-          "club": "Chicago Fire"
+          "club": "Chicago Fire FC"
         },
         {
           "number": 8,
@@ -1051,7 +1051,7 @@
           "number": 10,
           "name": "Joel Waterman",
           "position": "DF",
-          "club": "Chicago Fire"
+          "club": "Chicago Fire FC"
         },
         {
           "number": 11,
@@ -1979,15 +1979,15 @@
         },
         {
           "number": 21,
-          "name": "Abde Ezzalzouli",
-          "position": "FW",
-          "club": "Real Betis"
-        },
-        {
-          "number": 22,
           "name": "Soufiane Rahimi",
           "position": "FW",
           "club": "Al Ain"
+        },
+        {
+          "number": 22,
+          "name": "Abde Ezzalzouli",
+          "position": "FW",
+          "club": "Real Betis"
         },
         {
           "number": 23,
@@ -2886,7 +2886,7 @@
           "number": 25,
           "name": "Chris Brady",
           "position": "GK",
-          "club": "Chicago Fire"
+          "club": "Chicago Fire FC"
         },
         {
           "number": 26,
@@ -2909,153 +2909,153 @@
         },
         {
           "number": 2,
-          "name": "Trevor Doornbusch",
-          "position": "GK",
-          "club": "VVV-Venlo"
-        },
-        {
-          "number": 3,
-          "name": "Tyrick Bodak",
-          "position": "GK",
-          "club": "Telstar"
-        },
-        {
-          "number": 4,
-          "name": "Juriën Gaari",
-          "position": "DF",
-          "club": "Abha"
-        },
-        {
-          "number": 5,
-          "name": "Roshon van Eijma",
-          "position": "DF",
-          "club": "RKC Waalwijk"
-        },
-        {
-          "number": 6,
-          "name": "Sherel Floranus",
-          "position": "DF",
-          "club": "PEC Zwolle"
-        },
-        {
-          "number": 7,
-          "name": "Joshua Brenet",
-          "position": "DF",
-          "club": "Kayserispor"
-        },
-        {
-          "number": 8,
           "name": "Shurandy Sambo",
           "position": "DF",
           "club": "Sparta Rotterdam"
         },
         {
-          "number": 9,
-          "name": "Armando Obispo",
+          "number": 3,
+          "name": "Juriën Gaari",
           "position": "DF",
-          "club": "PSV Eindhoven"
+          "club": "Abha"
         },
         {
-          "number": 10,
-          "name": "Riechedly Bazoer",
+          "number": 4,
+          "name": "Roshon van Eijma",
           "position": "DF",
-          "club": "Konyaspor"
+          "club": "RKC Waalwijk"
         },
         {
-          "number": 11,
-          "name": "Deveron Fonville",
+          "number": 5,
+          "name": "Sherel Floranus",
           "position": "DF",
-          "club": "NEC"
+          "club": "PEC Zwolle"
         },
         {
-          "number": 12,
-          "name": "Leandro Bacuna",
-          "position": "MF",
-          "club": "Iğdır"
-        },
-        {
-          "number": 13,
-          "name": "Juninho Bacuna",
-          "position": "MF",
-          "club": "Volendam"
-        },
-        {
-          "number": 14,
+          "number": 6,
           "name": "Godfried Roemeratoe",
           "position": "MF",
           "club": "RKC Waalwijk"
         },
         {
-          "number": 15,
-          "name": "Kevin Felida",
+          "number": 7,
+          "name": "Juninho Bacuna",
           "position": "MF",
-          "club": "Den Bosch"
+          "club": "Volendam"
         },
         {
-          "number": 16,
+          "number": 8,
           "name": "Livano Comenencia",
           "position": "MF",
           "club": "Zürich"
         },
         {
-          "number": 17,
-          "name": "Ar'jany Martha",
-          "position": "MF",
-          "club": "Rotherham United"
-        },
-        {
-          "number": 18,
-          "name": "Tyrese Noslin",
-          "position": "MF",
-          "club": "Telstar"
-        },
-        {
-          "number": 19,
-          "name": "Kenji Gorré",
-          "position": "FW",
-          "club": "Maccabi Haifa"
-        },
-        {
-          "number": 20,
-          "name": "Brandley Kuwas",
-          "position": "FW",
-          "club": "Volendam"
-        },
-        {
-          "number": 21,
-          "name": "Gervane Kastaneer",
-          "position": "FW",
-          "club": "Terengganu"
-        },
-        {
-          "number": 22,
-          "name": "Jeremy Antonisse",
-          "position": "FW",
-          "club": "Kifisia"
-        },
-        {
-          "number": 23,
-          "name": "Jearl Margaritha",
-          "position": "FW",
-          "club": "Beveren"
-        },
-        {
-          "number": 24,
+          "number": 9,
           "name": "Jürgen Locadia",
           "position": "FW",
           "club": "Miami FC"
         },
         {
-          "number": 25,
+          "number": 10,
+          "name": "Leandro Bacuna",
+          "position": "MF",
+          "club": "Iğdır"
+        },
+        {
+          "number": 11,
+          "name": "Jeremy Antonisse",
+          "position": "FW",
+          "club": "Kifisia"
+        },
+        {
+          "number": 12,
           "name": "Sontje Hansen",
           "position": "FW",
           "club": "Middlesbrough"
         },
         {
-          "number": 26,
+          "number": 13,
+          "name": "Tyrese Noslin",
+          "position": "MF",
+          "club": "Telstar"
+        },
+        {
+          "number": 14,
+          "name": "Kenji Gorré",
+          "position": "FW",
+          "club": "Maccabi Haifa"
+        },
+        {
+          "number": 15,
+          "name": "Ar'jany Martha",
+          "position": "MF",
+          "club": "Rotherham United"
+        },
+        {
+          "number": 16,
+          "name": "Jearl Margaritha",
+          "position": "FW",
+          "club": "Beveren"
+        },
+        {
+          "number": 17,
+          "name": "Brandley Kuwas",
+          "position": "FW",
+          "club": "Volendam"
+        },
+        {
+          "number": 18,
+          "name": "Armando Obispo",
+          "position": "DF",
+          "club": "PSV Eindhoven"
+        },
+        {
+          "number": 19,
+          "name": "Gervane Kastaneer",
+          "position": "FW",
+          "club": "Terengganu"
+        },
+        {
+          "number": 20,
+          "name": "Joshua Brenet",
+          "position": "DF",
+          "club": "Kayserispor"
+        },
+        {
+          "number": 21,
           "name": "Tahith Chong",
           "position": "FW",
           "club": "Sheffield United"
+        },
+        {
+          "number": 22,
+          "name": "Kevin Felida",
+          "position": "MF",
+          "club": "Den Bosch"
+        },
+        {
+          "number": 23,
+          "name": "Riechedly Bazoer",
+          "position": "DF",
+          "club": "Konyaspor"
+        },
+        {
+          "number": 24,
+          "name": "Deveron Fonville",
+          "position": "DF",
+          "club": "NEC"
+        },
+        {
+          "number": 25,
+          "name": "Tyrick Bodak",
+          "position": "GK",
+          "club": "Telstar"
+        },
+        {
+          "number": 26,
+          "name": "Trevor Doornbusch",
+          "position": "GK",
+          "club": "VVV-Venlo"
         }
       ]
     },
@@ -3140,7 +3140,7 @@
         {
           "number": 13,
           "name": "Pascal Groß",
-          "position": "MF",
+          "position": "DF",
           "club": "Brighton & Hove Albion"
         },
         {
@@ -6922,7 +6922,7 @@
         },
         {
           "number": 21,
-          "name": "Rafael Le��o",
+          "name": "Rafael Leão",
           "position": "FW",
           "club": "Milan"
         },
