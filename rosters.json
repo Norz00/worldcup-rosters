@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-05-30",
   "teams": [
     {
       "name": "捷克",
@@ -3104,7 +3104,7 @@
         {
           "number": 13,
           "name": "Pascal Groß",
-          "position": "DF",
+          "position": "MF",
           "club": "Brighton & Hove Albion"
         },
         {
@@ -3716,9 +3716,9 @@
         },
         {
           "number": 6,
-          "name": "Emil Holm",
+          "name": "Herman Johansson",
           "position": "DF",
-          "club": "Juventus"
+          "club": "FC Dallas"
         },
         {
           "number": 7,
@@ -3759,7 +3759,7 @@
         {
           "number": 13,
           "name": "Ken Sema",
-          "position": "MF",
+          "position": "FW",
           "club": "Pafos"
         },
         {
@@ -3995,7 +3995,7 @@
           "number": 25,
           "name": "Khalil Ayari",
           "position": "FW",
-          "club": "Paris Saint-Germain"
+          "club": "Paris Saint-Germain Youth"
         },
         {
           "number": 26,
@@ -4329,12 +4329,6 @@
           "name": "Hamza Abdelkarim",
           "position": "FW",
           "club": "Barcelona B"
-        },
-        {
-          "number": 27,
-          "name": "Aqtay Abdallah",
-          "position": "FW",
-          "club": "ENPPI"
         }
       ]
     },
@@ -7414,7 +7408,7 @@
           "number": 23,
           "name": "Anthony Gordon",
           "position": "FW",
-          "club": "Newcastle United{{refn|group=note|Gordon is set to join FC Barcelona mid-way through the tournament on July 1, 2026.{{cite web |title=Anthony Gordon becomes an FC Barcelona player |url=https://www.fcbarcelona.com/en/news/4511134/anthony-gordon-becomes-an-fc-barcelona-player |publisher=FC Barcelona |access-date=29 May 2026 |date=29 May 2026}}}}"
+          "club": "Newcastle United"
         },
         {
           "number": 24,
