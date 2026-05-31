@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
   "teams": [
     {
       "name": "捷克",
@@ -287,15 +287,15 @@
         },
         {
           "number": 17,
-          "name": "Everardo López",
-          "position": "DF",
-          "club": "Toluca"
-        },
-        {
-          "number": 18,
           "name": "Alejandro Gómez",
           "position": "DF",
           "club": "Tijuana"
+        },
+        {
+          "number": 18,
+          "name": "Everardo López",
+          "position": "DF",
+          "club": "Toluca"
         },
         {
           "number": 19,
@@ -377,27 +377,27 @@
         },
         {
           "number": 32,
-          "name": "Brian Gutiérrez",
-          "position": "MF",
-          "club": "Guadalajara"
-        },
-        {
-          "number": 33,
           "name": "Gilberto Mora",
           "position": "MF",
           "club": "Tijuana"
         },
         {
-          "number": 34,
-          "name": "Alexis Gutiérrez",
+          "number": 33,
+          "name": "Brian Gutiérrez",
           "position": "MF",
-          "club": "América"
+          "club": "Guadalajara"
         },
         {
-          "number": 35,
+          "number": 34,
           "name": "Obed Vargas",
           "position": "MF",
           "club": "Atlético Madrid"
+        },
+        {
+          "number": 35,
+          "name": "Alexis Gutiérrez",
+          "position": "MF",
+          "club": "América"
         },
         {
           "number": 36,
@@ -413,15 +413,15 @@
         },
         {
           "number": 38,
-          "name": "Jordán Carrillo",
-          "position": "MF",
-          "club": "UNAM"
-        },
-        {
-          "number": 39,
           "name": "Álvaro Fidalgo",
           "position": "MF",
           "club": "Real Betis"
+        },
+        {
+          "number": 39,
+          "name": "Jordán Carrillo",
+          "position": "MF",
+          "club": "UNAM"
         },
         {
           "number": 40,
@@ -2107,30 +2107,36 @@
         },
         {
           "number": 21,
+          "name": "Tyler Fletcher",
+          "position": "MF",
+          "club": "Manchester United"
+        },
+        {
+          "number": 22,
           "name": "Lyndon Dykes",
           "position": "FW",
           "club": "Charlton Athletic"
         },
         {
-          "number": 22,
+          "number": 23,
           "name": "Ché Adams",
           "position": "FW",
           "club": "Torino"
         },
         {
-          "number": 23,
+          "number": 24,
           "name": "Lawrence Shankland",
           "position": "FW",
           "club": "Heart of Midlothian"
         },
         {
-          "number": 24,
+          "number": 25,
           "name": "George Hirst",
           "position": "FW",
           "club": "Ipswich Town"
         },
         {
-          "number": 25,
+          "number": 26,
           "name": "Ross Stewart",
           "position": "FW",
           "club": "Southampton"
@@ -4896,15 +4902,15 @@
         },
         {
           "number": 9,
-          "name": "Ali Majrashi",
-          "position": "DF",
-          "club": "Al-Ahli"
-        },
-        {
-          "number": 10,
           "name": "Ali Lajami",
           "position": "DF",
           "club": "Al-Hilal"
+        },
+        {
+          "number": 10,
+          "name": "Ali Majrashi",
+          "position": "DF",
+          "club": "Al-Ahli"
         },
         {
           "number": 11,
@@ -4974,13 +4980,13 @@
         },
         {
           "number": 22,
-          "name": "Ziyad Al-Johani",
+          "name": "Saleh Abu Al-Shamat",
           "position": "MF",
           "club": "Al-Ahli"
         },
         {
           "number": 23,
-          "name": "Saleh Abu Al-Shamat",
+          "name": "Ziyad Al-Johani",
           "position": "MF",
           "club": "Al-Ahli"
         },
