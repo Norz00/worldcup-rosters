@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-01",
   "teams": [
     {
       "name": "捷克",
@@ -191,288 +191,138 @@
         },
         {
           "number": 4,
-          "name": "José Antonio Rodríguez",
-          "position": "GK",
-          "club": "Tijuana"
-        },
-        {
-          "number": 5,
-          "name": "Carlos Moreno",
-          "position": "GK",
-          "club": "Pachuca"
-        },
-        {
-          "number": 6,
-          "name": "Alex Padilla",
-          "position": "GK",
-          "club": "Athletic Bilbao"
-        },
-        {
-          "number": 7,
           "name": "Jesús Gallardo",
           "position": "DF",
           "club": "Toluca"
         },
         {
-          "number": 8,
+          "number": 5,
           "name": "César Montes",
           "position": "DF",
           "club": "Lokomotiv Moscow"
         },
         {
-          "number": 9,
+          "number": 6,
           "name": "Jorge Sánchez",
           "position": "DF",
           "club": "PAOK"
         },
         {
-          "number": 10,
+          "number": 7,
           "name": "Johan Vásquez",
           "position": "DF",
           "club": "Genoa"
         },
         {
-          "number": 11,
+          "number": 8,
           "name": "Israel Reyes",
           "position": "DF",
           "club": "América"
         },
         {
-          "number": 12,
-          "name": "Jesús Alberto Angulo",
-          "position": "DF",
-          "club": "UANL"
-        },
-        {
-          "number": 13,
-          "name": "Julián Araujo",
-          "position": "DF",
-          "club": "Celtic"
-        },
-        {
-          "number": 14,
+          "number": 9,
           "name": "Mateo Chávez",
           "position": "DF",
           "club": "AZ"
         },
         {
-          "number": 15,
-          "name": "Víctor Guzmán",
-          "position": "DF",
-          "club": "Monterrey"
-        },
-        {
-          "number": 16,
-          "name": "Richard Ledezma",
-          "position": "DF",
-          "club": "Guadalajara"
-        },
-        {
-          "number": 17,
-          "name": "Alejandro Gómez",
-          "position": "DF",
-          "club": "Tijuana"
-        },
-        {
-          "number": 18,
-          "name": "Everardo López",
-          "position": "DF",
-          "club": "Toluca"
-        },
-        {
-          "number": 19,
-          "name": "Bryan González",
-          "position": "DF",
-          "club": "Guadalajara"
-        },
-        {
-          "number": 20,
-          "name": "Ramón Juárez",
-          "position": "DF",
-          "club": "América"
-        },
-        {
-          "number": 21,
+          "number": 10,
           "name": "Edson Álvarez",
           "position": "MF",
           "club": "Fenerbahçe"
         },
         {
-          "number": 22,
+          "number": 11,
           "name": "Orbelín Pineda",
           "position": "MF",
           "club": "AEK Athens"
         },
         {
-          "number": 23,
-          "name": "Carlos Rodríguez",
-          "position": "MF",
-          "club": "Cruz Azul"
-        },
-        {
-          "number": 24,
+          "number": 12,
           "name": "Roberto Alvarado",
           "position": "MF",
           "club": "Guadalajara"
         },
         {
-          "number": 25,
+          "number": 13,
           "name": "Luis Romo",
           "position": "MF",
           "club": "Guadalajara"
         },
         {
-          "number": 26,
+          "number": 14,
           "name": "Luis Chávez",
           "position": "MF",
           "club": "Dynamo Moscow"
         },
         {
-          "number": 27,
-          "name": "Érick Sánchez",
-          "position": "MF",
-          "club": "América"
-        },
-        {
-          "number": 28,
-          "name": "Diego Lainez",
-          "position": "MF",
-          "club": "UANL"
-        },
-        {
-          "number": 29,
+          "number": 15,
           "name": "Érik Lira",
           "position": "MF",
           "club": "Cruz Azul"
         },
         {
-          "number": 30,
-          "name": "Marcel Ruiz",
-          "position": "MF",
-          "club": "Toluca"
-        },
-        {
-          "number": 31,
-          "name": "Efraín Álvarez",
-          "position": "MF",
-          "club": "Guadalajara"
-        },
-        {
-          "number": 32,
+          "number": 16,
           "name": "Gilberto Mora",
           "position": "MF",
           "club": "Tijuana"
         },
         {
-          "number": 33,
+          "number": 17,
           "name": "Brian Gutiérrez",
           "position": "MF",
           "club": "Guadalajara"
         },
         {
-          "number": 34,
+          "number": 18,
           "name": "Obed Vargas",
           "position": "MF",
           "club": "Atlético Madrid"
         },
         {
-          "number": 35,
-          "name": "Alexis Gutiérrez",
-          "position": "MF",
-          "club": "América"
-        },
-        {
-          "number": 36,
-          "name": "Jesús Ricardo Angulo",
-          "position": "MF",
-          "club": "Toluca"
-        },
-        {
-          "number": 37,
-          "name": "Kevin Castañeda",
-          "position": "MF",
-          "club": "Tijuana"
-        },
-        {
-          "number": 38,
+          "number": 19,
           "name": "Álvaro Fidalgo",
           "position": "MF",
           "club": "Real Betis"
         },
         {
-          "number": 39,
-          "name": "Jordán Carrillo",
-          "position": "MF",
-          "club": "UNAM"
-        },
-        {
-          "number": 40,
-          "name": "Jorge Ruvalcaba",
-          "position": "MF",
-          "club": "New York Red Bulls"
-        },
-        {
-          "number": 41,
-          "name": "Alexéi Domínguez",
-          "position": "MF",
-          "club": "Pachuca"
-        },
-        {
-          "number": 42,
-          "name": "Jeremy Márquez",
-          "position": "MF",
-          "club": "Cruz Azul"
-        },
-        {
-          "number": 43,
-          "name": "Elías Montiel",
-          "position": "MF",
-          "club": "Pachuca"
-        },
-        {
-          "number": 44,
+          "number": 20,
           "name": "Raúl Jiménez",
           "position": "FW",
           "club": "Fulham"
         },
         {
-          "number": 45,
+          "number": 21,
           "name": "Alexis Vega",
           "position": "FW",
           "club": "Toluca"
         },
         {
-          "number": 46,
+          "number": 22,
           "name": "Santiago Giménez",
           "position": "FW",
           "club": "Milan"
         },
         {
-          "number": 47,
+          "number": 23,
           "name": "César Huerta",
           "position": "FW",
           "club": "Anderlecht"
         },
         {
-          "number": 48,
+          "number": 24,
           "name": "Julián Quiñones",
           "position": "FW",
           "club": "Al-Qadsiah"
         },
         {
-          "number": 49,
+          "number": 25,
           "name": "Guillermo Martínez",
           "position": "FW",
           "club": "UNAM"
         },
         {
-          "number": 50,
-          "name": "Germán Berterame",
-          "position": "FW",
-          "club": "Inter Miami CF"
-        },
-        {
-          "number": 51,
+          "number": 26,
           "name": "Armando González",
           "position": "FW",
           "club": "Guadalajara"
@@ -694,7 +544,7 @@
           "number": 8,
           "name": "Park Jin-seob",
           "position": "DF",
-          "club": "Zhejiang FC"
+          "club": "Zhejiang"
         },
         {
           "number": 9,
@@ -1124,12 +974,6 @@
           "name": "Nathan Saliba",
           "position": "MF",
           "club": "Anderlecht"
-        },
-        {
-          "number": 26,
-          "name": "Marcelo Flores",
-          "position": "MF",
-          "club": "UANL"
         }
       ]
     },
@@ -1140,171 +984,159 @@
       "players": [
         {
           "number": 1,
-          "name": "Meshaal Barsham",
-          "position": "GK",
-          "club": "Al-Sadd"
-        },
-        {
-          "number": 2,
-          "name": "Salah Zakaria",
-          "position": "GK",
-          "club": "Al-Duhail"
-        },
-        {
-          "number": 3,
           "name": "Mahmud Abunada",
           "position": "GK",
           "club": "Al-Rayyan"
         },
         {
-          "number": 4,
-          "name": "Shehab Ellethy",
-          "position": "GK",
-          "club": "Al-Shahaniya"
-        },
-        {
-          "number": 5,
-          "name": "Boualem Khoukhi",
-          "position": "DF",
-          "club": "Al-Sadd"
-        },
-        {
-          "number": 6,
+          "number": 2,
           "name": "Pedro Miguel",
           "position": "DF",
           "club": "Al-Sadd"
         },
         {
-          "number": 7,
-          "name": "Homam Ahmed",
-          "position": "DF",
-          "club": "Cultural Leonesa"
-        },
-        {
-          "number": 8,
+          "number": 3,
           "name": "Lucas Mendes",
           "position": "DF",
           "club": "Al-Wakrah"
         },
         {
-          "number": 9,
-          "name": "Sultan Al-Brake",
-          "position": "DF",
-          "club": "Al-Duhail"
-        },
-        {
-          "number": 10,
-          "name": "Al-Hashmi Al-Hussain",
-          "position": "DF",
-          "club": "Al-Arabi"
-        },
-        {
-          "number": 11,
-          "name": "Ayoub Al-Oui",
-          "position": "DF",
-          "club": "Al-Gharafa"
-        },
-        {
-          "number": 12,
+          "number": 4,
           "name": "Issa Laye",
           "position": "DF",
           "club": "Al-Arabi"
         },
         {
-          "number": 13,
-          "name": "Rayyan Al-Ali",
-          "position": "DF",
-          "club": "Al-Gharafa"
-        },
-        {
-          "number": 14,
-          "name": "Abdulaziz Hatem",
-          "position": "MF",
-          "club": "Al-Rayyan"
-        },
-        {
-          "number": 15,
-          "name": "Karim Boudiaf",
-          "position": "MF",
-          "club": "Al-Duhail"
-        },
-        {
-          "number": 16,
-          "name": "Assim Madibo",
-          "position": "MF",
-          "club": "Al-Wakrah"
-        },
-        {
-          "number": 17,
-          "name": "Ahmed Fathy",
-          "position": "MF",
-          "club": "Al-Arabi"
-        },
-        {
-          "number": 18,
+          "number": 5,
           "name": "Jassem Gaber",
           "position": "MF",
           "club": "Al-Rayyan"
         },
         {
-          "number": 19,
-          "name": "Mohamed Al-Mannai",
+          "number": 6,
+          "name": "Abdulaziz Hatem",
           "position": "MF",
-          "club": "Al-Shamal"
+          "club": "Al-Rayyan"
         },
         {
-          "number": 20,
-          "name": "Tahsin Jamshid",
-          "position": "MF",
-          "club": "Al-Duhail"
-        },
-        {
-          "number": 21,
-          "name": "Hassan Al-Haydos",
-          "position": "FW",
-          "club": "Al-Sadd"
-        },
-        {
-          "number": 22,
-          "name": "Akram Afif",
-          "position": "FW",
-          "club": "Al-Sadd"
-        },
-        {
-          "number": 23,
-          "name": "Almoez Ali",
-          "position": "FW",
-          "club": "Al-Duhail"
-        },
-        {
-          "number": 24,
-          "name": "Mohammed Muntari",
-          "position": "FW",
-          "club": "Al-Gharafa"
-        },
-        {
-          "number": 25,
+          "number": 7,
           "name": "Ahmed Alaaeldin",
           "position": "FW",
           "club": "Al-Rayyan"
         },
         {
-          "number": 26,
-          "name": "Yusuf Abdurisag",
-          "position": "FW",
-          "club": "Al-Wakrah"
-        },
-        {
-          "number": 27,
+          "number": 8,
           "name": "Edmilson Junior",
           "position": "FW",
           "club": "Al-Duhail"
         },
         {
-          "number": 28,
+          "number": 9,
+          "name": "Mohammed Muntari",
+          "position": "FW",
+          "club": "Al-Gharafa"
+        },
+        {
+          "number": 10,
+          "name": "Hassan Al-Haydos",
+          "position": "FW",
+          "club": "Al-Sadd"
+        },
+        {
+          "number": 11,
+          "name": "Akram Afif",
+          "position": "FW",
+          "club": "Al-Sadd"
+        },
+        {
+          "number": 12,
+          "name": "Karim Boudiaf",
+          "position": "MF",
+          "club": "Al-Duhail"
+        },
+        {
+          "number": 13,
+          "name": "Ayoub Al-Oui",
+          "position": "DF",
+          "club": "Al-Gharafa"
+        },
+        {
+          "number": 14,
+          "name": "Homam Ahmed",
+          "position": "DF",
+          "club": "Cultural Leonesa"
+        },
+        {
+          "number": 15,
+          "name": "Yusuf Abdurisag",
+          "position": "FW",
+          "club": "Al-Wakrah"
+        },
+        {
+          "number": 16,
+          "name": "Boualem Khoukhi",
+          "position": "DF",
+          "club": "Al-Sadd"
+        },
+        {
+          "number": 17,
           "name": "Ahmed Al-Ganehi",
           "position": "FW",
           "club": "Al-Gharafa"
+        },
+        {
+          "number": 18,
+          "name": "Sultan Al-Brake",
+          "position": "DF",
+          "club": "Al-Duhail"
+        },
+        {
+          "number": 19,
+          "name": "Almoez Ali",
+          "position": "FW",
+          "club": "Al-Duhail"
+        },
+        {
+          "number": 20,
+          "name": "Ahmed Fathy",
+          "position": "MF",
+          "club": "Al-Arabi"
+        },
+        {
+          "number": 21,
+          "name": "Salah Zakaria",
+          "position": "GK",
+          "club": "Al-Duhail"
+        },
+        {
+          "number": 22,
+          "name": "Meshaal Barsham",
+          "position": "GK",
+          "club": "Al-Sadd"
+        },
+        {
+          "number": 23,
+          "name": "Assim Madibo",
+          "position": "MF",
+          "club": "Al-Wakrah"
+        },
+        {
+          "number": 24,
+          "name": "Tahsin Jamshid",
+          "position": "FW",
+          "club": "Al-Duhail"
+        },
+        {
+          "number": 25,
+          "name": "Al-Hashmi Al-Hussain",
+          "position": "DF",
+          "club": "Al-Arabi"
+        },
+        {
+          "number": 26,
+          "name": "Mohamed Al-Mannai",
+          "position": "MF",
+          "club": "Al-Shamal"
         }
       ]
     },
@@ -1686,7 +1518,7 @@
           "number": 8,
           "name": "Duke Lacroix",
           "position": "DF",
-          "club": "Colorado Springs Switchbacks"
+          "club": "Colorado Springs Switchbacks FC"
         },
         {
           "number": 9,
@@ -1927,7 +1759,7 @@
           "number": 21,
           "name": "Soufiane Rahimi",
           "position": "FW",
-          "club": "Al Ain"
+          "club": "Al-Ain"
         },
         {
           "number": 22,
@@ -2139,147 +1971,147 @@
         },
         {
           "number": 2,
-          "name": "Paul Izzo",
-          "position": "GK",
-          "club": "Randers"
-        },
-        {
-          "number": 3,
-          "name": "Patrick Beach",
-          "position": "GK",
-          "club": "Melbourne City"
-        },
-        {
-          "number": 4,
-          "name": "Aziz Behich",
-          "position": "DF",
-          "club": "Melbourne City"
-        },
-        {
-          "number": 5,
           "name": "Miloš Degenek",
           "position": "DF",
           "club": "APOEL"
         },
         {
-          "number": 6,
-          "name": "Harry Souttar",
-          "position": "DF",
-          "club": "Leicester City"
-        },
-        {
-          "number": 7,
-          "name": "Jordan Bos",
-          "position": "DF",
-          "club": "Feyenoord"
-        },
-        {
-          "number": 8,
-          "name": "Cameron Burgess",
-          "position": "DF",
-          "club": "Swansea City"
-        },
-        {
-          "number": 9,
-          "name": "Jason Geria",
-          "position": "DF",
-          "club": "Albirex Niigata"
-        },
-        {
-          "number": 10,
+          "number": 3,
           "name": "Alessandro Circati",
           "position": "DF",
           "club": "Parma"
         },
         {
-          "number": 11,
-          "name": "Kai Trewin",
-          "position": "DF",
-          "club": "New York City"
-        },
-        {
-          "number": 12,
+          "number": 4,
           "name": "Jacob Italiano",
           "position": "DF",
-          "club": "Grazer AK"
+          "club": "GAK"
         },
         {
-          "number": 13,
-          "name": "Lucas Herrington",
+          "number": 5,
+          "name": "Jordan Bos",
           "position": "DF",
-          "club": "Colorado Rapids"
+          "club": "Feyenoord"
         },
         {
-          "number": 14,
-          "name": "Jackson Irvine",
-          "position": "MF",
-          "club": "FC St. Pauli"
+          "number": 6,
+          "name": "Jason Geria",
+          "position": "DF",
+          "club": "Albirex Niigata"
         },
         {
-          "number": 15,
-          "name": "Ajdin Hrustic",
-          "position": "MF",
-          "club": "Heracles Almelo"
-        },
-        {
-          "number": 16,
-          "name": "Connor Metcalfe",
-          "position": "MF",
-          "club": "FC St. Pauli"
-        },
-        {
-          "number": 17,
-          "name": "Aiden O'Neill",
-          "position": "MF",
-          "club": "New York City"
-        },
-        {
-          "number": 18,
-          "name": "Paul Okon-Engstler",
-          "position": "MF",
-          "club": "Sydney FC"
-        },
-        {
-          "number": 19,
-          "name": "Cammy Devlin",
-          "position": "MF",
-          "club": "Heart of Midlothian"
-        },
-        {
-          "number": 20,
+          "number": 7,
           "name": "Mathew Leckie",
           "position": "FW",
           "club": "Melbourne City"
         },
         {
-          "number": 21,
-          "name": "Awer Mabil",
-          "position": "FW",
-          "club": "Castellón"
+          "number": 8,
+          "name": "Connor Metcalfe",
+          "position": "MF",
+          "club": "FC St. Pauli"
         },
         {
-          "number": 22,
-          "name": "Nestory Irankunda",
-          "position": "FW",
-          "club": "Watford"
-        },
-        {
-          "number": 23,
+          "number": 9,
           "name": "Mohamed Touré",
           "position": "FW",
           "club": "Norwich City"
         },
         {
-          "number": 24,
+          "number": 10,
+          "name": "Ajdin Hrustic",
+          "position": "MF",
+          "club": "Heracles Almelo"
+        },
+        {
+          "number": 11,
+          "name": "Awer Mabil",
+          "position": "FW",
+          "club": "Castellón"
+        },
+        {
+          "number": 12,
+          "name": "Paul Izzo",
+          "position": "GK",
+          "club": "Randers"
+        },
+        {
+          "number": 13,
+          "name": "Aiden O'Neill",
+          "position": "MF",
+          "club": "New York City FC"
+        },
+        {
+          "number": 14,
+          "name": "Cammy Devlin",
+          "position": "MF",
+          "club": "Heart of Midlothian"
+        },
+        {
+          "number": 15,
+          "name": "Kai Trewin",
+          "position": "DF",
+          "club": "New York City FC"
+        },
+        {
+          "number": 16,
+          "name": "Aziz Behich",
+          "position": "DF",
+          "club": "Melbourne City"
+        },
+        {
+          "number": 17,
+          "name": "Nestory Irankunda",
+          "position": "FW",
+          "club": "Watford"
+        },
+        {
+          "number": 18,
+          "name": "Patrick Beach",
+          "position": "GK",
+          "club": "Melbourne City"
+        },
+        {
+          "number": 19,
+          "name": "Harry Souttar",
+          "position": "DF",
+          "club": "Leicester City"
+        },
+        {
+          "number": 20,
+          "name": "Cristian Volpato",
+          "position": "FW",
+          "club": "Sassuolo"
+        },
+        {
+          "number": 21,
+          "name": "Cameron Burgess",
+          "position": "DF",
+          "club": "Swansea City"
+        },
+        {
+          "number": 22,
+          "name": "Jackson Irvine",
+          "position": "MF",
+          "club": "FC St. Pauli"
+        },
+        {
+          "number": 23,
           "name": "Nishan Velupillay",
           "position": "FW",
           "club": "Melbourne Victory"
         },
         {
+          "number": 24,
+          "name": "Paul Okon-Engstler",
+          "position": "MF",
+          "club": "Sydney FC"
+        },
+        {
           "number": 25,
-          "name": "Cristian Volpato",
-          "position": "FW",
-          "club": "Sassuolo"
+          "name": "Lucas Herrington",
+          "position": "DF",
+          "club": "Colorado Rapids"
         },
         {
           "number": 26,
@@ -2302,327 +2134,153 @@
         },
         {
           "number": 2,
-          "name": "Carlos Coronel",
-          "position": "GK",
-          "club": "São Paulo"
-        },
-        {
-          "number": 3,
           "name": "Orlando Gill",
           "position": "GK",
           "club": "San Lorenzo"
         },
         {
-          "number": 4,
-          "name": "Santiago Rojas",
-          "position": "GK",
-          "club": "Nacional"
-        },
-        {
-          "number": 5,
-          "name": "Juan Espínola",
-          "position": "GK",
-          "club": "Barracas Central"
-        },
-        {
-          "number": 6,
+          "number": 3,
           "name": "Gastón Olveira",
           "position": "GK",
           "club": "Olimpia"
         },
         {
-          "number": 7,
+          "number": 4,
           "name": "Gustavo Gómez",
           "position": "DF",
           "club": "Palmeiras"
         },
         {
-          "number": 8,
+          "number": 5,
           "name": "Júnior Alonso",
           "position": "DF",
           "club": "Atlético Mineiro"
         },
         {
-          "number": 9,
+          "number": 6,
           "name": "Fabián Balbuena",
           "position": "DF",
           "club": "Grêmio"
         },
         {
-          "number": 10,
+          "number": 7,
           "name": "Omar Alderete",
           "position": "DF",
           "club": "Sunderland"
         },
         {
-          "number": 11,
+          "number": 8,
           "name": "Juan José Cáceres",
           "position": "DF",
           "club": "Dynamo Moscow"
         },
         {
-          "number": 12,
-          "name": "Blas Riveros",
-          "position": "DF",
-          "club": "Cerro Porteño"
-        },
-        {
-          "number": 13,
+          "number": 9,
           "name": "Gustavo Velázquez",
           "position": "DF",
           "club": "Cerro Porteño"
         },
         {
-          "number": 14,
-          "name": "Alan Benítez",
-          "position": "DF",
-          "club": "Libertad"
-        },
-        {
-          "number": 15,
-          "name": "Agustín Sández",
-          "position": "DF",
-          "club": "Rosario Central"
-        },
-        {
-          "number": 16,
-          "name": "Mateo Gamarra",
-          "position": "DF",
-          "club": "Cruzeiro"
-        },
-        {
-          "number": 17,
-          "name": "Saúl Salcedo",
-          "position": "DF",
-          "club": "Newell's Old Boys"
-        },
-        {
-          "number": 18,
+          "number": 10,
           "name": "José Canale",
           "position": "DF",
           "club": "Lanús"
         },
         {
-          "number": 19,
-          "name": "Diego León",
-          "position": "DF",
-          "club": "Manchester United"
-        },
-        {
-          "number": 20,
+          "number": 11,
           "name": "Alexandro Maidana",
           "position": "DF",
           "club": "Talleres"
         },
         {
-          "number": 21,
-          "name": "Alcides Benítez",
-          "position": "DF",
-          "club": "Belgrano"
-        },
-        {
-          "number": 22,
-          "name": "Ronaldo Dejesús",
-          "position": "DF",
-          "club": "Lanús"
-        },
-        {
-          "number": 23,
-          "name": "Alan Núñez",
-          "position": "DF",
-          "club": "Nacional"
-        },
-        {
-          "number": 24,
+          "number": 12,
           "name": "Miguel Almirón",
           "position": "MF",
           "club": "Atlanta United FC"
         },
         {
-          "number": 25,
-          "name": "Mathías Villasanti",
-          "position": "MF",
-          "club": "Grêmio"
-        },
-        {
-          "number": 26,
+          "number": 13,
           "name": "Kaku",
           "position": "MF",
-          "club": "Al Ain"
+          "club": "Al-Ain"
         },
         {
-          "number": 27,
+          "number": 14,
           "name": "Andrés Cubas",
           "position": "MF",
           "club": "Vancouver Whitecaps FC"
         },
         {
-          "number": 28,
+          "number": 15,
           "name": "Ramón Sosa",
           "position": "MF",
           "club": "Palmeiras"
         },
         {
-          "number": 29,
+          "number": 16,
           "name": "Diego Gómez",
           "position": "MF",
           "club": "Brighton & Hove Albion"
         },
         {
-          "number": 30,
+          "number": 17,
           "name": "Damián Bobadilla",
           "position": "MF",
           "club": "São Paulo"
         },
         {
-          "number": 31,
+          "number": 18,
           "name": "Braian Ojeda",
           "position": "MF",
           "club": "Orlando City SC"
         },
         {
-          "number": 32,
+          "number": 19,
           "name": "Matías Galarza",
           "position": "MF",
           "club": "Atlanta United FC"
         },
         {
-          "number": 33,
-          "name": "Robert Piris Da Motta",
-          "position": "MF",
-          "club": "Cerro Porteño"
-        },
-        {
-          "number": 34,
-          "name": "Álvaro Campuzano",
-          "position": "MF",
-          "club": "Libertad"
-        },
-        {
-          "number": 35,
-          "name": "Diego González",
-          "position": "MF",
-          "club": "Atlas"
-        },
-        {
-          "number": 36,
-          "name": "Hugo Cuenca",
-          "position": "MF",
-          "club": "Burgos"
-        },
-        {
-          "number": 37,
+          "number": 20,
           "name": "Maurício",
           "position": "MF",
           "club": "Palmeiras"
         },
         {
-          "number": 38,
-          "name": "Lucas Romero",
-          "position": "MF",
-          "club": "Universidad de Chile"
-        },
-        {
-          "number": 39,
-          "name": "Enso González",
-          "position": "MF",
-          "club": "Wolverhampton Wanderers"
-        },
-        {
-          "number": 40,
-          "name": "Rubén Lezcano",
-          "position": "MF",
-          "club": "Olimpia"
-        },
-        {
-          "number": 41,
-          "name": "Óscar Romero",
-          "position": "FW",
-          "club": "Huracán"
-        },
-        {
-          "number": 42,
-          "name": "Ángel Romero",
-          "position": "FW",
-          "club": "Boca Juniors"
-        },
-        {
-          "number": 43,
+          "number": 21,
           "name": "Antonio Sanabria",
           "position": "FW",
           "club": "Cremonese"
         },
         {
-          "number": 44,
+          "number": 22,
           "name": "Julio Enciso",
           "position": "FW",
           "club": "Strasbourg"
         },
         {
-          "number": 45,
+          "number": 23,
           "name": "Gabriel Ávalos",
           "position": "FW",
           "club": "Independiente"
         },
         {
-          "number": 46,
-          "name": "Carlos González",
-          "position": "FW",
-          "club": "Independiente del Valle"
-        },
-        {
-          "number": 47,
+          "number": 24,
           "name": "Álex Arce",
           "position": "FW",
           "club": "Independiente Rivadavia"
         },
         {
-          "number": 48,
-          "name": "Adam Bareiro",
-          "position": "FW",
-          "club": "Boca Juniors"
-        },
-        {
-          "number": 49,
-          "name": "Lorenzo Melgarejo",
-          "position": "FW",
-          "club": "Libertad"
-        },
-        {
-          "number": 50,
+          "number": 25,
           "name": "Isidro Pitta",
           "position": "FW",
           "club": "Red Bull Bragantino"
         },
         {
-          "number": 51,
-          "name": "Ronaldo Martínez",
-          "position": "FW",
-          "club": "Talleres"
-        },
-        {
-          "number": 52,
+          "number": 26,
           "name": "Gustavo Caballero",
           "position": "FW",
           "club": "Portsmouth"
-        },
-        {
-          "number": 53,
-          "name": "Robert Morales",
-          "position": "FW",
-          "club": "UNAM"
-        },
-        {
-          "number": 54,
-          "name": "Adrián Alcaraz",
-          "position": "FW",
-          "club": "Olimpia"
-        },
-        {
-          "number": 55,
-          "name": "Rodney Redes",
-          "position": "FW",
-          "club": "LDU Quito"
         }
       ]
     },
@@ -3182,285 +2840,153 @@
         },
         {
           "number": 2,
-          "name": "Moisés Ramírez",
-          "position": "GK",
-          "club": "Kifisia"
-        },
-        {
-          "number": 3,
-          "name": "Gonzalo Valle",
-          "position": "GK",
-          "club": "LDU Quito"
-        },
-        {
-          "number": 4,
-          "name": "David Cabezas",
-          "position": "GK",
-          "club": "Libertad"
-        },
-        {
-          "number": 5,
-          "name": "Omar Carabalí",
-          "position": "GK",
-          "club": "O'Higgins"
-        },
-        {
-          "number": 6,
-          "name": "Cristhian Loor",
-          "position": "GK",
-          "club": "Botafogo"
-        },
-        {
-          "number": 7,
-          "name": "Ángelo Preciado",
-          "position": "DF",
-          "club": "Atlético Mineiro"
-        },
-        {
-          "number": 8,
-          "name": "Pervis Estupiñán",
-          "position": "DF",
-          "club": "Milan"
-        },
-        {
-          "number": 9,
-          "name": "Piero Hincapié",
-          "position": "DF",
-          "club": "Arsenal"
-        },
-        {
-          "number": 10,
           "name": "Félix Torres",
           "position": "DF",
           "club": "Internacional"
         },
         {
-          "number": 11,
-          "name": "Willian Pacho",
+          "number": 3,
+          "name": "Piero Hincapié",
           "position": "DF",
-          "club": "Paris Saint-Germain"
+          "club": "Arsenal"
         },
         {
-          "number": 12,
-          "name": "Cristian Ramírez",
-          "position": "DF",
-          "club": "Lokomotiv Moscow"
-        },
-        {
-          "number": 13,
-          "name": "Xavier Arreaga",
-          "position": "DF",
-          "club": "Bolívar"
-        },
-        {
-          "number": 14,
+          "number": 4,
           "name": "Joel Ordóñez",
           "position": "DF",
           "club": "Club Brugge"
         },
         {
-          "number": 15,
-          "name": "José Hurtado",
-          "position": "DF",
-          "club": "Red Bull Bragantino"
-        },
-        {
-          "number": 16,
-          "name": "Jackson Porozo",
-          "position": "DF",
-          "club": "Tijuana"
-        },
-        {
-          "number": 17,
-          "name": "Jhoanner Chávez",
-          "position": "DF",
-          "club": "Sparta Prague"
-        },
-        {
-          "number": 18,
-          "name": "Leonardo Realpe",
-          "position": "DF",
-          "club": "Famalicão"
-        },
-        {
-          "number": 19,
-          "name": "Fricio Caicedo",
-          "position": "DF",
-          "club": "LDU Quito"
-        },
-        {
-          "number": 20,
-          "name": "Deinner Ordóñez",
-          "position": "DF",
-          "club": "Independiente del Valle"
-        },
-        {
-          "number": 21,
-          "name": "Moisés Caicedo",
-          "position": "MF",
-          "club": "Chelsea"
-        },
-        {
-          "number": 22,
-          "name": "Alan Franco",
-          "position": "MF",
-          "club": "Atlético Mineiro"
-        },
-        {
-          "number": 23,
-          "name": "Gonzalo Plata",
-          "position": "MF",
-          "club": "Flamengo"
-        },
-        {
-          "number": 24,
-          "name": "Jhegson Méndez",
-          "position": "MF",
-          "club": "Independiente del Valle"
-        },
-        {
-          "number": 25,
-          "name": "Kendry Páez",
-          "position": "MF",
-          "club": "River Plate"
-        },
-        {
-          "number": 26,
-          "name": "John Yeboah",
-          "position": "MF",
-          "club": "Venezia"
-        },
-        {
-          "number": 27,
-          "name": "Alan Minda",
-          "position": "MF",
-          "club": "Atlético Mineiro"
-        },
-        {
-          "number": 28,
-          "name": "Pedro Vite",
-          "position": "MF",
-          "club": "UNAM"
-        },
-        {
-          "number": 29,
+          "number": 5,
           "name": "Jordy Alcívar",
           "position": "MF",
           "club": "Independiente del Valle"
         },
         {
-          "number": 30,
+          "number": 6,
+          "name": "Willian Pacho",
+          "position": "DF",
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "number": 7,
+          "name": "Pervis Estupiñán",
+          "position": "DF",
+          "club": "Milan"
+        },
+        {
+          "number": 8,
           "name": "Denil Castillo",
           "position": "MF",
           "club": "Midtjylland"
         },
         {
-          "number": 31,
-          "name": "Yaimar Medina",
+          "number": 9,
+          "name": "John Yeboah",
           "position": "MF",
-          "club": "Genk"
+          "club": "Venezia"
         },
         {
-          "number": 32,
-          "name": "Patrik Mercado",
+          "number": 10,
+          "name": "Kendry Páez",
           "position": "MF",
-          "club": "Independiente del Valle"
+          "club": "River Plate"
         },
         {
-          "number": 33,
-          "name": "Darwin Guagua",
-          "position": "MF",
-          "club": "Independiente del Valle"
-        },
-        {
-          "number": 34,
-          "name": "Bruno Caicedo",
-          "position": "MF",
-          "club": "Vancouver Whitecaps"
-        },
-        {
-          "number": 35,
-          "name": "Ederson Castillo",
-          "position": "MF",
-          "club": "LDU Quito"
-        },
-        {
-          "number": 36,
-          "name": "Malcom Dacosta",
-          "position": "MF",
-          "club": "Bournemouth"
-        },
-        {
-          "number": 37,
-          "name": "Luis Fragozo",
-          "position": "MF",
-          "club": "Emelec"
-        },
-        {
-          "number": 38,
-          "name": "Bryan Ramírez",
-          "position": "MF",
-          "club": "Cincinnati"
-        },
-        {
-          "number": 39,
-          "name": "Enner Valencia",
-          "position": "FW",
-          "club": "Pachuca"
-        },
-        {
-          "number": 40,
+          "number": 11,
           "name": "Kevin Rodríguez",
           "position": "FW",
           "club": "Union Saint-Gilloise"
         },
         {
-          "number": 41,
-          "name": "Leonardo Campana",
-          "position": "FW",
-          "club": "New England Revolution"
+          "number": 12,
+          "name": "Moisés Ramírez",
+          "position": "GK",
+          "club": "Kifisia"
         },
         {
-          "number": 42,
-          "name": "Jordy Caicedo",
+          "number": 13,
+          "name": "Enner Valencia",
           "position": "FW",
-          "club": "Huracán"
+          "club": "Pachuca"
         },
         {
-          "number": 43,
-          "name": "Nilson Angulo",
-          "position": "FW",
-          "club": "Sunderland"
+          "number": 14,
+          "name": "Alan Minda",
+          "position": "MF",
+          "club": "Atlético Mineiro"
         },
         {
-          "number": 44,
-          "name": "Janner Corozo",
-          "position": "FW",
-          "club": "LDU Quito"
+          "number": 15,
+          "name": "Pedro Vite",
+          "position": "MF",
+          "club": "UNAM"
         },
         {
-          "number": 45,
-          "name": "John Mercado",
-          "position": "FW",
-          "club": "Sparta Prague"
-        },
-        {
-          "number": 46,
-          "name": "Jeremy Arévalo",
-          "position": "FW",
-          "club": "VfB Stuttgart"
-        },
-        {
-          "number": 47,
+          "number": 16,
           "name": "Anthony Valencia",
           "position": "FW",
           "club": "Antwerp"
         },
         {
-          "number": 48,
-          "name": "Elías Legendre",
+          "number": 17,
+          "name": "Ángelo Preciado",
+          "position": "DF",
+          "club": "Atlético Mineiro"
+        },
+        {
+          "number": 18,
+          "name": "Jordy Caicedo",
           "position": "FW",
-          "club": "Rennes"
+          "club": "Huracán"
+        },
+        {
+          "number": 19,
+          "name": "Gonzalo Plata",
+          "position": "MF",
+          "club": "Flamengo"
+        },
+        {
+          "number": 20,
+          "name": "Nilson Angulo",
+          "position": "FW",
+          "club": "Sunderland"
+        },
+        {
+          "number": 21,
+          "name": "Alan Franco",
+          "position": "MF",
+          "club": "Atlético Mineiro"
+        },
+        {
+          "number": 22,
+          "name": "Gonzalo Valle",
+          "position": "GK",
+          "club": "LDU Quito"
+        },
+        {
+          "number": 23,
+          "name": "Moisés Caicedo",
+          "position": "MF",
+          "club": "Chelsea"
+        },
+        {
+          "number": 24,
+          "name": "Yaimar Medina",
+          "position": "MF",
+          "club": "Genk"
+        },
+        {
+          "number": 25,
+          "name": "Jackson Porozo",
+          "position": "DF",
+          "club": "Tijuana"
+        },
+        {
+          "number": 26,
+          "name": "Jeremy Arévalo",
+          "position": "FW",
+          "club": "VfB Stuttgart"
         }
       ]
     },
@@ -4649,7 +4175,7 @@
           "number": 6,
           "name": "Ramy Rabia",
           "position": "DF",
-          "club": "Al Ain"
+          "club": "Al-Ain"
         },
         {
           "number": 7,
@@ -4725,7 +4251,7 @@
         },
         {
           "number": 19,
-          "name": "{{ill|Mostafa Ziko|ar| مصطفى عبد الرؤوف زيكو}}",
+          "name": "Mostafa Ziko",
           "position": "MF",
           "club": "Pyramids"
         },
@@ -4769,7 +4295,7 @@
           "number": 26,
           "name": "Hamza Abdelkarim",
           "position": "FW",
-          "club": "Barcelona B"
+          "club": "Barcelona"
         }
       ]
     },
@@ -4799,162 +4325,138 @@
         },
         {
           "number": 4,
-          "name": "Mohammad Khalife",
-          "position": "GK",
-          "club": "Aluminium Arak"
-        },
-        {
-          "number": 5,
           "name": "Ehsan Hajsafi",
           "position": "DF",
           "club": "Sepahan"
         },
         {
-          "number": 6,
+          "number": 5,
           "name": "Milad Mohammadi",
           "position": "DF",
           "club": "Persepolis"
         },
         {
-          "number": 7,
+          "number": 6,
           "name": "Ramin Rezaeian",
           "position": "DF",
           "club": "Foolad"
         },
         {
-          "number": 8,
+          "number": 7,
           "name": "Hossein Kanaanizadegan",
           "position": "DF",
           "club": "Persepolis"
         },
         {
-          "number": 9,
+          "number": 8,
           "name": "Shojae Khalilzadeh",
           "position": "DF",
           "club": "Tractor"
         },
         {
-          "number": 10,
+          "number": 9,
           "name": "Saleh Hardani",
           "position": "DF",
           "club": "Esteghlal"
         },
         {
-          "number": 11,
+          "number": 10,
           "name": "Ali Nemati",
           "position": "DF",
           "club": "Foolad"
         },
         {
-          "number": 12,
-          "name": "Aria Yousefi",
-          "position": "DF",
-          "club": "Sepahan"
-        },
-        {
-          "number": 13,
-          "name": "{{ill|Danial Eiri|fa| دانیال ایری}}",
+          "number": 11,
+          "name": "{{ill|Danial Eiri|fa|دانیال ایری}}",
           "position": "DF",
           "club": "Malavan"
         },
         {
-          "number": 14,
+          "number": 12,
           "name": "Alireza Jahanbakhsh",
           "position": "MF",
           "club": "Dender"
         },
         {
-          "number": 15,
+          "number": 13,
           "name": "Saeid Ezatolahi",
           "position": "MF",
           "club": "Shabab Al-Ahli"
         },
         {
-          "number": 16,
+          "number": 14,
           "name": "Saman Ghoddos",
           "position": "MF",
           "club": "Kalba"
         },
         {
-          "number": 17,
+          "number": 15,
           "name": "Mehdi Torabi",
           "position": "MF",
           "club": "Tractor"
         },
         {
-          "number": 18,
+          "number": 16,
           "name": "Rouzbeh Cheshmi",
           "position": "MF",
           "club": "Esteghlal"
         },
         {
-          "number": 19,
-          "name": "Omid Noorafkan",
-          "position": "MF",
-          "club": "Sepahan"
-        },
-        {
-          "number": 20,
+          "number": 17,
           "name": "Mohammad Mohebi",
           "position": "MF",
           "club": "Rostov"
         },
         {
-          "number": 21,
+          "number": 18,
+          "name": "Mehdi Ghayedi",
+          "position": "MF",
+          "club": "Al-Nasr"
+        },
+        {
+          "number": 19,
           "name": "Mohammad Ghorbani",
           "position": "MF",
           "club": "Al-Wahda"
         },
         {
-          "number": 22,
+          "number": 20,
+          "name": "Aria Yousefi",
+          "position": "MF",
+          "club": "Sepahan"
+        },
+        {
+          "number": 21,
           "name": "Amirmohammad Razzaghinia",
           "position": "MF",
           "club": "Esteghlal"
         },
         {
-          "number": 23,
-          "name": "Hadi Habibinejad",
-          "position": "MF",
-          "club": "Chadormalou"
-        },
-        {
-          "number": 24,
+          "number": 22,
           "name": "Mehdi Taremi",
           "position": "FW",
           "club": "Olympiacos"
         },
         {
-          "number": 25,
-          "name": "Mehdi Ghayedi",
+          "number": 23,
+          "name": "Shahriyar Moghanlou",
           "position": "FW",
-          "club": "Al-Nasr"
+          "club": "Kalba"
         },
         {
-          "number": 26,
+          "number": 24,
           "name": "Amirhossein Hosseinzadeh",
           "position": "FW",
           "club": "Tractor"
         },
         {
-          "number": 27,
+          "number": 25,
           "name": "Ali Alipour",
           "position": "FW",
           "club": "Persepolis"
         },
         {
-          "number": 28,
-          "name": "Kasra Taheri",
-          "position": "FW",
-          "club": "Paykan"
-        },
-        {
-          "number": 29,
-          "name": "{{ill| Amirhossein Mahmoudi|fa| امیرحسین محمودی}}",
-          "position": "FW",
-          "club": "Persepolis"
-        },
-        {
-          "number": 30,
+          "number": 26,
           "name": "Dennis Eckert",
           "position": "FW",
           "club": "Standard Liège"
@@ -5170,7 +4672,7 @@
           "number": 7,
           "name": "Diney",
           "position": "DF",
-          "club": "Al Bataeh"
+          "club": "Al-Bataeh"
         },
         {
           "number": 8,
@@ -5313,165 +4815,141 @@
         },
         {
           "number": 4,
-          "name": "Abdulquddus Atiah",
-          "position": "GK",
-          "club": "Al-Taawoun"
-        },
-        {
-          "number": 5,
           "name": "Saud Abdulhamid",
           "position": "DF",
           "club": "Lens"
         },
         {
-          "number": 6,
+          "number": 5,
           "name": "Hassan Al-Tambakti",
           "position": "DF",
           "club": "Al-Hilal"
         },
         {
-          "number": 7,
+          "number": 6,
           "name": "Abdulelah Al-Amri",
           "position": "DF",
           "club": "Al-Nassr"
         },
         {
-          "number": 8,
+          "number": 7,
           "name": "Nawaf Boushal",
           "position": "DF",
           "club": "Al-Nassr"
         },
         {
-          "number": 9,
+          "number": 8,
           "name": "Ali Lajami",
           "position": "DF",
           "club": "Al-Hilal"
         },
         {
-          "number": 10,
+          "number": 9,
           "name": "Ali Majrashi",
           "position": "DF",
           "club": "Al-Ahli"
         },
         {
-          "number": 11,
+          "number": 10,
           "name": "Hassan Kadesh",
           "position": "DF",
           "club": "Al-Ittihad"
         },
         {
-          "number": 12,
+          "number": 11,
           "name": "Moteb Al-Harbi",
           "position": "DF",
           "club": "Al-Hilal"
         },
         {
-          "number": 13,
+          "number": 12,
           "name": "Jehad Thakri",
           "position": "DF",
           "club": "Al-Qadsiah"
         },
         {
-          "number": 14,
+          "number": 13,
           "name": "Mohammed Abu Al-Shamat",
           "position": "DF",
           "club": "Al-Qadsiah"
         },
         {
-          "number": 15,
-          "name": "Zakaria Hawsawi",
-          "position": "DF",
-          "club": "Al-Ahli"
-        },
-        {
-          "number": 16,
+          "number": 14,
           "name": "Salem Al-Dawsari",
           "position": "MF",
           "club": "Al-Hilal"
         },
         {
-          "number": 17,
+          "number": 15,
           "name": "Mohamed Kanno",
           "position": "MF",
           "club": "Al-Hilal"
         },
         {
-          "number": 18,
+          "number": 16,
           "name": "Nasser Al-Dawsari",
           "position": "MF",
           "club": "Al-Hilal"
         },
         {
-          "number": 19,
+          "number": 17,
           "name": "Abdullah Al-Khaibari",
           "position": "MF",
           "club": "Al-Nassr"
         },
         {
-          "number": 20,
+          "number": 18,
           "name": "Musab Al-Juwayr",
           "position": "MF",
           "club": "Al-Qadsiah"
         },
         {
-          "number": 21,
+          "number": 19,
           "name": "Ayman Yahya",
           "position": "MF",
           "club": "Al-Nassr"
         },
         {
-          "number": 22,
-          "name": "Saleh Abu Al-Shamat",
-          "position": "MF",
-          "club": "Al-Ahli"
-        },
-        {
-          "number": 23,
+          "number": 20,
           "name": "Ziyad Al-Johani",
           "position": "MF",
           "club": "Al-Ahli"
         },
         {
-          "number": 24,
+          "number": 21,
           "name": "Sultan Mandash",
           "position": "MF",
           "club": "Al-Hilal"
         },
         {
-          "number": 25,
+          "number": 22,
           "name": "Alaa Al-Hejji",
           "position": "MF",
           "club": "Neom"
         },
         {
-          "number": 26,
+          "number": 23,
           "name": "Firas Al-Buraikan",
           "position": "FW",
           "club": "Al-Ahli"
         },
         {
-          "number": 27,
+          "number": 24,
           "name": "Saleh Al-Shehri",
           "position": "FW",
           "club": "Al-Ittihad"
         },
         {
-          "number": 28,
+          "number": 25,
           "name": "Abdullah Al-Hamdan",
           "position": "FW",
           "club": "Al-Nassr"
         },
         {
-          "number": 29,
+          "number": 26,
           "name": "Khalid Al-Ghannam",
           "position": "FW",
           "club": "Al-Ettifaq"
-        },
-        {
-          "number": 30,
-          "name": "Abdullah Al-Salem",
-          "position": "FW",
-          "club": "Al-Qadsiah"
         }
       ]
     },
@@ -5483,159 +4961,159 @@
       "players": [
         {
           "number": 1,
-          "name": "Unai Simón",
-          "position": "GK",
-          "club": "Athletic Bilbao"
-        },
-        {
-          "number": 2,
           "name": "David Raya",
           "position": "GK",
           "club": "Arsenal"
         },
         {
-          "number": 3,
-          "name": "Joan Garcia",
-          "position": "GK",
-          "club": "Barcelona"
-        },
-        {
-          "number": 4,
-          "name": "Aymeric Laporte",
-          "position": "DF",
-          "club": "Athletic Bilbao"
-        },
-        {
-          "number": 5,
-          "name": "Marc Cucurella",
-          "position": "DF",
-          "club": "Chelsea"
-        },
-        {
-          "number": 6,
-          "name": "Marcos Llorente",
-          "position": "DF",
-          "club": "Atlético Madrid"
-        },
-        {
-          "number": 7,
-          "name": "Eric García",
-          "position": "DF",
-          "club": "Barcelona"
-        },
-        {
-          "number": 8,
-          "name": "Pedro Porro",
-          "position": "DF",
-          "club": "Tottenham Hotspur"
-        },
-        {
-          "number": 9,
-          "name": "Álex Grimaldo",
-          "position": "DF",
-          "club": "Bayer Leverkusen"
-        },
-        {
-          "number": 10,
-          "name": "Pau Cubarsí",
-          "position": "DF",
-          "club": "Barcelona"
-        },
-        {
-          "number": 11,
+          "number": 2,
           "name": "Marc Pubill",
           "position": "DF",
           "club": "Atlético Madrid"
         },
         {
-          "number": 12,
-          "name": "Rodri",
-          "position": "MF",
-          "club": "Manchester City"
+          "number": 3,
+          "name": "Álex Grimaldo",
+          "position": "DF",
+          "club": "Bayer Leverkusen"
         },
         {
-          "number": 13,
+          "number": 4,
+          "name": "Eric García",
+          "position": "DF",
+          "club": "Barcelona"
+        },
+        {
+          "number": 5,
+          "name": "Marcos Llorente",
+          "position": "DF",
+          "club": "Atlético Madrid"
+        },
+        {
+          "number": 6,
           "name": "Mikel Merino",
           "position": "MF",
           "club": "Arsenal"
         },
         {
-          "number": 14,
-          "name": "Fabián Ruiz",
-          "position": "MF",
-          "club": "Paris Saint-Germain"
-        },
-        {
-          "number": 15,
-          "name": "Pedri",
-          "position": "MF",
-          "club": "Barcelona"
-        },
-        {
-          "number": 16,
-          "name": "Gavi",
-          "position": "MF",
-          "club": "Barcelona"
-        },
-        {
-          "number": 17,
-          "name": "Martín Zubimendi",
-          "position": "MF",
-          "club": "Arsenal"
-        },
-        {
-          "number": 18,
-          "name": "Álex Baena",
-          "position": "MF",
-          "club": "Atlético Madrid"
-        },
-        {
-          "number": 19,
+          "number": 7,
           "name": "Ferran Torres",
           "position": "FW",
           "club": "Barcelona"
         },
         {
-          "number": 20,
-          "name": "Mikel Oyarzabal",
-          "position": "FW",
-          "club": "Real Sociedad"
+          "number": 8,
+          "name": "Fabián Ruiz",
+          "position": "MF",
+          "club": "Paris Saint-Germain"
         },
         {
-          "number": 21,
+          "number": 9,
+          "name": "Gavi",
+          "position": "MF",
+          "club": "Barcelona"
+        },
+        {
+          "number": 10,
           "name": "Dani Olmo",
           "position": "FW",
           "club": "Barcelona"
         },
         {
-          "number": 22,
-          "name": "Nico Williams",
-          "position": "FW",
-          "club": "Athletic Bilbao"
-        },
-        {
-          "number": 23,
-          "name": "Lamine Yamal",
-          "position": "FW",
-          "club": "Barcelona"
-        },
-        {
-          "number": 24,
+          "number": 11,
           "name": "Yéremy Pino",
           "position": "FW",
           "club": "Crystal Palace"
         },
         {
-          "number": 25,
-          "name": "Borja Iglesias",
-          "position": "FW",
-          "club": "Celta Vigo"
+          "number": 12,
+          "name": "Pedro Porro",
+          "position": "DF",
+          "club": "Tottenham Hotspur"
         },
         {
-          "number": 26,
+          "number": 13,
+          "name": "Joan Garcia",
+          "position": "GK",
+          "club": "Barcelona"
+        },
+        {
+          "number": 14,
+          "name": "Aymeric Laporte",
+          "position": "DF",
+          "club": "Athletic Bilbao"
+        },
+        {
+          "number": 15,
+          "name": "Álex Baena",
+          "position": "MF",
+          "club": "Atlético Madrid"
+        },
+        {
+          "number": 16,
+          "name": "Rodri",
+          "position": "MF",
+          "club": "Manchester City"
+        },
+        {
+          "number": 17,
+          "name": "Nico Williams",
+          "position": "FW",
+          "club": "Athletic Bilbao"
+        },
+        {
+          "number": 18,
+          "name": "Martín Zubimendi",
+          "position": "MF",
+          "club": "Arsenal"
+        },
+        {
+          "number": 19,
+          "name": "Lamine Yamal",
+          "position": "FW",
+          "club": "Barcelona"
+        },
+        {
+          "number": 20,
+          "name": "Pedri",
+          "position": "MF",
+          "club": "Barcelona"
+        },
+        {
+          "number": 21,
+          "name": "Mikel Oyarzabal",
+          "position": "FW",
+          "club": "Real Sociedad"
+        },
+        {
+          "number": 22,
+          "name": "Pau Cubarsí",
+          "position": "DF",
+          "club": "Barcelona"
+        },
+        {
+          "number": 23,
+          "name": "Unai Simón",
+          "position": "GK",
+          "club": "Athletic Bilbao"
+        },
+        {
+          "number": 24,
+          "name": "Marc Cucurella",
+          "position": "DF",
+          "club": "Chelsea"
+        },
+        {
+          "number": 25,
           "name": "Víctor Muñoz",
           "position": "FW",
           "club": "Osasuna"
+        },
+        {
+          "number": 26,
+          "name": "Borja Iglesias",
+          "position": "FW",
+          "club": "Celta Vigo"
         }
       ]
     },
@@ -5991,186 +5469,138 @@
         },
         {
           "number": 4,
-          "name": "Kumel Al-Rekabe",
-          "position": "GK",
-          "club": "Erbil"
-        },
-        {
-          "number": 5,
           "name": "Rebin Sulaka",
           "position": "DF",
           "club": "Port"
         },
         {
-          "number": 6,
+          "number": 5,
           "name": "Manaf Younis",
           "position": "DF",
           "club": "Al-Shorta"
         },
         {
-          "number": 7,
+          "number": 6,
           "name": "Merchas Doski",
           "position": "DF",
           "club": "Viktoria Plzeň"
         },
         {
-          "number": 8,
-          "name": "Hussein Ali",
-          "position": "DF",
-          "club": "Pogoń Szczecin"
-        },
-        {
-          "number": 9,
+          "number": 7,
           "name": "Zaid Tahseen",
           "position": "DF",
           "club": "Pakhtakor"
         },
         {
-          "number": 10,
+          "number": 8,
           "name": "Frans Putros",
           "position": "DF",
           "club": "Persib"
         },
         {
-          "number": 11,
-          "name": "Maitham Jabbar",
+          "number": 9,
+          "name": "Hussein Ali",
           "position": "DF",
-          "club": "Al-Zawraa"
+          "club": "Pogoń Szczecin"
         },
         {
-          "number": 12,
+          "number": 10,
           "name": "Ahmed Yahya",
           "position": "DF",
           "club": "Al-Shorta"
         },
         {
-          "number": 13,
+          "number": 11,
           "name": "Mustafa Saadoon",
           "position": "DF",
           "club": "Al-Shorta"
         },
         {
-          "number": 14,
+          "number": 12,
           "name": "Akam Hashim",
           "position": "DF",
           "club": "Al-Zawraa"
         },
         {
-          "number": 15,
-          "name": "Ahmed Maknzi",
-          "position": "DF",
-          "club": "Al-Karma"
-        },
-        {
-          "number": 16,
-          "name": "Dario Naamo",
-          "position": "DF",
-          "club": "Dundee United"
-        },
-        {
-          "number": 17,
+          "number": 13,
           "name": "Ibrahim Bayesh",
           "position": "MF",
           "club": "Al-Dhafra"
         },
         {
-          "number": 18,
+          "number": 14,
           "name": "Amir Al-Ammari",
           "position": "MF",
           "club": "Cracovia"
         },
         {
-          "number": 19,
+          "number": 15,
           "name": "Ali Jasim",
           "position": "MF",
           "club": "Al-Najma"
         },
         {
-          "number": 20,
+          "number": 16,
           "name": "Youssef Amyn",
           "position": "MF",
           "club": "AEK Larnaca"
         },
         {
-          "number": 21,
+          "number": 17,
           "name": "Zidane Iqbal",
           "position": "MF",
           "club": "Utrecht"
         },
         {
-          "number": 22,
-          "name": "Hasan Abdulkareem",
-          "position": "MF",
-          "club": "Al-Zawraa"
-        },
-        {
-          "number": 23,
+          "number": 18,
           "name": "Marko Farji",
           "position": "MF",
           "club": "Venezia"
         },
         {
-          "number": 24,
-          "name": "Karrar Nabeel",
-          "position": "MF",
-          "club": "Al-Zawraa"
-        },
-        {
-          "number": 25,
+          "number": 19,
           "name": "Kevin Yakob",
           "position": "MF",
           "club": "AGF"
         },
         {
-          "number": 26,
+          "number": 20,
           "name": "Aimar Sher",
           "position": "MF",
           "club": "Sarpsborg 08"
         },
         {
-          "number": 27,
+          "number": 21,
           "name": "Zaid Ismail",
           "position": "MF",
           "club": "Al-Talaba"
         },
         {
-          "number": 28,
-          "name": "Peter Gwargis",
-          "position": "MF",
-          "club": "Duhok"
-        },
-        {
-          "number": 29,
-          "name": "Jussef Nasrawe",
-          "position": "MF",
-          "club": "SV Ried"
-        },
-        {
-          "number": 30,
+          "number": 22,
           "name": "Ahmed Qasem",
           "position": "MF",
           "club": "Nashville SC"
         },
         {
-          "number": 31,
+          "number": 23,
           "name": "Aymen Hussein",
           "position": "FW",
           "club": "Al-Karma"
         },
         {
-          "number": 32,
+          "number": 24,
           "name": "Mohanad Ali",
           "position": "FW",
           "club": "Dibba"
         },
         {
-          "number": 33,
+          "number": 25,
           "name": "Ali Al-Hamadi",
           "position": "FW",
           "club": "Luton Town"
         },
         {
-          "number": 34,
+          "number": 26,
           "name": "Ali Yousif",
           "position": "FW",
           "club": "Al-Talaba"
@@ -6670,7 +6100,7 @@
           "number": 25,
           "name": "Nadhir Benbouali",
           "position": "FW",
-          "club": "Győr"
+          "club": "Győri ETO"
         },
         {
           "number": 26,
@@ -7504,7 +6934,7 @@
           "number": 26,
           "name": "Simon Banza",
           "position": "FW",
-          "club": "Al Jazira"
+          "club": "Al-Jazira"
         }
       ]
     },
@@ -7782,7 +7212,7 @@
           "number": 18,
           "name": "Azizjon Ganiev",
           "position": "MF",
-          "club": "Al Bataeh"
+          "club": "Al-Bataeh"
         },
         {
           "number": 19,
@@ -7800,7 +7230,7 @@
           "number": 21,
           "name": "Sherzod Esanov",
           "position": "MF",
-          "club": "Buxoro"
+          "club": "Bukhara"
         },
         {
           "number": 22,
@@ -7842,7 +7272,7 @@
           "number": 28,
           "name": "Azizbek Amonov",
           "position": "FW",
-          "club": "Buxoro"
+          "club": "Bukhara"
         },
         {
           "number": 29,
@@ -8006,7 +7436,7 @@
           "number": 24,
           "name": "Marco Pašalić",
           "position": "FW",
-          "club": "Orlando City"
+          "club": "Orlando City SC"
         },
         {
           "number": 25,
@@ -8218,7 +7648,7 @@
           "number": 5,
           "name": "Paul Reverson",
           "position": "GK",
-          "club": "Jong Ajax"
+          "club": "Ajax"
         },
         {
           "number": 6,
@@ -8234,39 +7664,39 @@
         },
         {
           "number": 8,
-          "name": "Alexander Djiku",
-          "position": "DF",
-          "club": "Spartak Moscow"
-        },
-        {
-          "number": 9,
           "name": "Alidu Seidu",
           "position": "DF",
           "club": "Rennes"
         },
         {
-          "number": 10,
+          "number": 9,
           "name": "Jerome Opoku",
           "position": "DF",
           "club": "İstanbul Başakşehir"
         },
         {
-          "number": 11,
+          "number": 10,
           "name": "Jonas Adjetey",
           "position": "DF",
           "club": "VfL Wolfsburg"
         },
         {
-          "number": 12,
+          "number": 11,
           "name": "Abdul Mumin",
           "position": "DF",
           "club": "Rayo Vallecano"
         },
         {
-          "number": 13,
+          "number": 12,
           "name": "Kojo Peprah Oppong",
           "position": "DF",
           "club": "Nice"
+        },
+        {
+          "number": 13,
+          "name": "Derrick Luckassen",
+          "position": "DF",
+          "club": "Pafos"
         },
         {
           "number": 14,
