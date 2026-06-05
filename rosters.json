@@ -301,7 +301,7 @@
           "number": 22,
           "name": "Guillermo Martínez",
           "position": "FW",
-          "club": "UNAM"
+          "club": "Pumas"
         },
         {
           "number": 23,
@@ -3088,9 +3088,9 @@
         },
         {
           "number": 25,
-          "name": "Lennart Karl",
+          "name": "Assan Ouédraogo",
           "position": "MF",
-          "club": "Bayern Munich"
+          "club": "RB Leipzig"
         },
         {
           "number": 26,
@@ -6471,12 +6471,6 @@
           "name": "Salim Obaid",
           "position": "DF",
           "club": "Al-Hussein"
-        },
-        {
-          "number": 18,
-          "name": "Ibrahim Sabra",
-          "position": "FW",
-          "club": "Lokomotiva Zagreb"
         },
         {
           "number": 19,
