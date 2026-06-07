@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-06-07",
   "teams": [
     {
       "name": "捷克",
@@ -4139,7 +4139,7 @@
           "number": 9,
           "name": "Hamza Abdelkarim",
           "position": "FW",
-          "club": "Barcelona"
+          "club": "Barcelona B"
         },
         {
           "number": 10,
@@ -5481,9 +5481,9 @@
         },
         {
           "number": 15,
-          "name": "Ahmed Yahya",
+          "name": "Ahmed Maknzi",
           "position": "DF",
-          "club": "Al-Shorta"
+          "club": "Al-Karma"
         },
         {
           "number": 16,
