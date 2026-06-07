@@ -910,12 +910,6 @@
           "club": "Los Angeles FC"
         },
         {
-          "number": 15,
-          "name": "Moïse Bombito",
-          "position": "DF",
-          "club": "Nice"
-        },
-        {
           "number": 16,
           "name": "Maxime Crépeau",
           "position": "GK",
@@ -1317,9 +1311,9 @@
         },
         {
           "number": 2,
-          "name": "Wesley",
-          "position": "DF",
-          "club": "Roma"
+          "name": "Éderson Silva",
+          "position": "MF",
+          "club": "Atalanta"
         },
         {
           "number": 3,
@@ -1443,7 +1437,7 @@
         },
         {
           "number": 23,
-          "name": "Ederson",
+          "name": "Ederson Moraes",
           "position": "GK",
           "club": "Fenerbahçe"
         },
