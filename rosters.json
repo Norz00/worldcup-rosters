@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "teams": [
     {
       "name": "捷克",
@@ -908,6 +908,12 @@
           "name": "Jacob Shaffelburg",
           "position": "MF",
           "club": "Los Angeles FC"
+        },
+        {
+          "number": 15,
+          "name": "Moïse Bombito",
+          "position": "DF",
+          "club": "Nice"
         },
         {
           "number": 16,
@@ -2550,7 +2556,7 @@
         },
         {
           "number": 18,
-          "name": "Maximilian Arfsten",
+          "name": "Max Arfsten",
           "position": "DF",
           "club": "Columbus Crew"
         },
@@ -3436,9 +3442,9 @@
         },
         {
           "number": 2,
-          "name": "Jurriën Timber",
+          "name": "Lutsharel Geertruida",
           "position": "DF",
-          "club": "Arsenal"
+          "club": "Sunderland"
         },
         {
           "number": 3,
