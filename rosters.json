@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "teams": [
     {
       "name": "捷克",
@@ -974,6 +974,12 @@
           "name": "Nathan Saliba",
           "position": "MF",
           "club": "Anderlecht"
+        },
+        {
+          "number": 26,
+          "name": "Jayden Nelson",
+          "position": "MF",
+          "club": "Austin FC"
         }
       ]
     },
@@ -7020,7 +7026,7 @@
           "number": 1,
           "name": "Utkir Yusupov",
           "position": "GK",
-          "club": "Navbahor"
+          "club": "Navbahor Namangan"
         },
         {
           "number": 2,
