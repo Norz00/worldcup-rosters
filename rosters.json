@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "teams": [
     {
       "name": "捷克",
@@ -1667,9 +1667,9 @@
         },
         {
           "number": 5,
-          "name": "Nayef Aguerd",
+          "name": "Marwane Saâdane",
           "position": "DF",
-          "club": "Marseille"
+          "club": "Al-Fateh"
         },
         {
           "number": 6,
@@ -1739,9 +1739,9 @@
         },
         {
           "number": 17,
-          "name": "Abde Ezzalzouli",
+          "name": "Amine Sbaï",
           "position": "FW",
-          "club": "Real Betis"
+          "club": "Angers"
         },
         {
           "number": 18,
@@ -2872,7 +2872,7 @@
           "number": 15,
           "name": "Pedro Vite",
           "position": "MF",
-          "club": "UNAM"
+          "club": "Pumas"
         },
         {
           "number": 16,
@@ -6320,6 +6320,12 @@
           "name": "Romano Schmid",
           "position": "MF",
           "club": "Werder Bremen"
+        },
+        {
+          "number": 19,
+          "name": "Dejan Ljubičić",
+          "position": "MF",
+          "club": "Schalke 04"
         },
         {
           "number": 20,
