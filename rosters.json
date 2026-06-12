@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-12",
   "teams": [
     {
       "name": "捷克",
@@ -235,7 +235,7 @@
           "number": 11,
           "name": "Santiago Giménez",
           "position": "FW",
-          "club": "Milan"
+          "club": "AC Milan"
         },
         {
           "number": 12,
@@ -802,9 +802,9 @@
         },
         {
           "number": 24,
-          "name": "Nidal Čelik",
+          "name": "Arjan Malić",
           "position": "DF",
-          "club": "Lens"
+          "club": "Sturm Graz"
         },
         {
           "number": 25,
@@ -978,7 +978,7 @@
         {
           "number": 26,
           "name": "Jayden Nelson",
-          "position": "MF",
+          "position": "FW",
           "club": "Austin FC"
         }
       ]
@@ -1558,9 +1558,9 @@
         },
         {
           "number": 14,
-          "name": "Leverton Pierre",
-          "position": "MF",
-          "club": "Vizela"
+          "name": "Garven Metusala",
+          "position": "DF",
+          "club": "Colorado Springs Switchbacks FC"
         },
         {
           "number": 15,
@@ -3308,9 +3308,9 @@
         },
         {
           "number": 6,
-          "name": "Wataru Endo",
-          "position": "MF",
-          "club": "Liverpool"
+          "name": "Shuto Machino",
+          "position": "FW",
+          "club": "Borussia Mönchengladbach"
         },
         {
           "number": 7,
@@ -5082,7 +5082,7 @@
         },
         {
           "number": 2,
-          "name": "José Giménez",
+          "name": "José María Giménez",
           "position": "DF",
           "club": "Atlético Madrid"
         },
@@ -6063,6 +6063,12 @@
           "club": "Atlético Madrid"
         },
         {
+          "number": 2,
+          "name": "Marcos Senesi",
+          "position": "DF",
+          "club": "Bournemouth"
+        },
+        {
           "number": 3,
           "name": "Nicolás Tagliafico",
           "position": "DF",
@@ -6481,7 +6487,7 @@
         {
           "number": 18,
           "name": "Mohammad Taha",
-          "position": "DF",
+          "position": "MF",
           "club": "Al-Hussein"
         },
         {
