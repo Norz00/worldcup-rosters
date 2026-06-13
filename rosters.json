@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12",
+  "last_updated": "2026-06-13",
   "teams": [
     {
       "name": "捷克",
@@ -235,7 +235,7 @@
           "number": 11,
           "name": "Santiago Giménez",
           "position": "FW",
-          "club": "AC Milan"
+          "club": "Milan"
         },
         {
           "number": 12,
@@ -301,7 +301,7 @@
           "number": 22,
           "name": "Guillermo Martínez",
           "position": "FW",
-          "club": "Pumas"
+          "club": "Pumas UNAM"
         },
         {
           "number": 23,
@@ -2872,7 +2872,7 @@
           "number": 15,
           "name": "Pedro Vite",
           "position": "MF",
-          "club": "Pumas"
+          "club": "Pumas UNAM"
         },
         {
           "number": 16,
@@ -3308,7 +3308,7 @@
         },
         {
           "number": 6,
-          "name": "Shuto Machino",
+          "name": "Shūto Machino",
           "position": "FW",
           "club": "Borussia Mönchengladbach"
         },
@@ -5186,7 +5186,7 @@
           "number": 19,
           "name": "Rodrigo Aguirre",
           "position": "FW",
-          "club": "UANL"
+          "club": "Tigres UANL"
         },
         {
           "number": 20,
@@ -7733,7 +7733,7 @@
           "number": 8,
           "name": "Adalberto Carrasquilla",
           "position": "MF",
-          "club": "UNAM"
+          "club": "Pumas UNAM"
         },
         {
           "number": 9,
