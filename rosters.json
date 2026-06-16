@@ -3764,6 +3764,7 @@
     {
       "name": "突尼斯",
       "name_en": "Tunisia",
+      "coach": "Sabri Lamouchi",
       "status": "announced",
       "players": [
         {
@@ -7091,7 +7092,7 @@
         {
           "number": 10,
           "name": "Ruslanbek Jiyanov",
-          "position": "FW",
+          "position": "MF",
           "club": "Navbahor Namangan"
         },
         {
