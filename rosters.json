@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-06-16",
   "teams": [
     {
       "name": "捷克",
@@ -4458,9 +4458,9 @@
         },
         {
           "number": 7,
-          "name": "Matthew Garbett",
-          "position": "MF",
-          "club": "Peterborough United"
+          "name": "Logan Rogerson",
+          "position": "FW",
+          "club": "Auckland FC"
         },
         {
           "number": 8,
@@ -5053,7 +5053,7 @@
           "number": 24,
           "name": "Marc Cucurella",
           "position": "DF",
-          "club": "Real Madrid"
+          "club": "Chelsea"
         },
         {
           "number": 25,
@@ -7090,9 +7090,9 @@
         },
         {
           "number": 10,
-          "name": "Jaloliddin Masharipov",
-          "position": "MF",
-          "club": "Esteghlal"
+          "name": "Ruslanbek Jiyanov",
+          "position": "FW",
+          "club": "Navbahor Namangan"
         },
         {
           "number": 11,
@@ -7429,9 +7429,9 @@
         },
         {
           "number": 12,
-          "name": "Tino Livramento",
+          "name": "Trevoh Chalobah",
           "position": "DF",
-          "club": "Newcastle United"
+          "club": "Chelsea"
         },
         {
           "number": 13,
